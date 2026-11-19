@@ -1,0 +1,3719 @@
+{
+  "gameVersion": "1.0.5",
+  "electronVersion": "45.3.1",
+  "commit": "5d9f9a2502c3e7d65895c02eab769c5a58b24366",
+  "source": {
+    "treeSha256": "82b16763ca13c1ce236179a68e38dde1e3215dbd34bb720cd5c8f56e0d2e6265",
+    "files": [
+      {
+        "path": "electron/app-files.js",
+        "bytes": 856,
+        "sha256": "c03e7df81da35867f8e4580b40789e2a797a011fe6a8efef3b317968b0f610f8"
+      },
+      {
+        "path": "electron/bug-report.js",
+        "bytes": 1308,
+        "sha256": "283a5bdf45ff2ff8322c1b12841009fd1496432e1a713fcd7a13244c7fdd8d19"
+      },
+      {
+        "path": "electron/close-trace.js",
+        "bytes": 3008,
+        "sha256": "37cc6cf65d23c6b987132deff62a82967d24f4530ee694abf58015f07935bea9"
+      },
+      {
+        "path": "electron/log.js",
+        "bytes": 2427,
+        "sha256": "3729a1d3a0982c51c2a4679d6ffab6246bc0ad294d6bb7eb4186615f8261e1a1"
+      },
+      {
+        "path": "electron/main.js",
+        "bytes": 36506,
+        "sha256": "a4b4a2f180b9808cf66e9b31568b2c1930e684bf9d7e9fd42e325d2ecad29f72"
+      },
+      {
+        "path": "electron/performance-report.js",
+        "bytes": 2489,
+        "sha256": "2aec7ba298b88391cc3307c1ccc432c753428b53c52fd0c40fff6495ec5ee0ac"
+      },
+      {
+        "path": "electron/permissions.js",
+        "bytes": 2554,
+        "sha256": "2c8d27c7ce4b24ce2909c215a75e85d5b2b02e1d7ac747d71264b6522360f656"
+      },
+      {
+        "path": "electron/photos.js",
+        "bytes": 2291,
+        "sha256": "3c4e9be8f6dd4ea1c9e5b7500f02c1f1c2a99e141ba913b8b8d70694086c7acc"
+      },
+      {
+        "path": "electron/preload.js",
+        "bytes": 5775,
+        "sha256": "62b6304adb2009089a52ee32125ab91e28ec20da8c3921e14262327e5638d676"
+      },
+      {
+        "path": "electron/save-files.js",
+        "bytes": 3259,
+        "sha256": "48dcd4ad3d64508bd3a28388652aca997081ddafc38ca7172ef3762a637f0f34"
+      },
+      {
+        "path": "electron/steam.js",
+        "bytes": 8612,
+        "sha256": "a31dc07baaa6f1f5d06c887701ac58a386d732d4d507c603adfeb3058b25ce26"
+      },
+      {
+        "path": "src/assets/audio/music/intro_music.mp3",
+        "bytes": 4805760,
+        "sha256": "c87eb64b50a45b0ac3bdaad3602d76823061d5b9f3f6e367f505f11ae177b188"
+      },
+      {
+        "path": "src/assets/audio/music/menu_music.mp3",
+        "bytes": 2636397,
+        "sha256": "0cc2d31f8a321ecb42bb9d6eb926d4ef6f936659887096f9acf336335e5d9206"
+      },
+      {
+        "path": "src/assets/audio/sfx/sfx_key.mp3",
+        "bytes": 25389,
+        "sha256": "bb7408b01850750fd4e3bae692c22151b81eea469698af1f6ce7d30dc93a9d30"
+      },
+      {
+        "path": "src/assets/audio/sfx/sfx_shop_bell.mp3",
+        "bytes": 49581,
+        "sha256": "e726b30d3517d0c74fe94f01dcbf2959d2d679042930ea257970c8a4c7079821"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_de_01.mp3",
+        "bytes": 145668,
+        "sha256": "362c06d4b3737002a394e3b263443a9f7c1e25e14127c8138c26487fdb951ba9"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_de_04.mp3",
+        "bytes": 210870,
+        "sha256": "5c586273059e261101c057b9ef215d18c058adc0d74cb0cc5f00195da9c314be"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_de_05.mp3",
+        "bytes": 169910,
+        "sha256": "17c680c13bec1e52051815b7a23cde151dfbdd8f162b7c20d5977ddcf25ec3e0"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_de_06.mp3",
+        "bytes": 154445,
+        "sha256": "3e685b201f185398d8f4c2cd09a9234e06590854e716e21b62a8d6913c0ce980"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_de_07.mp3",
+        "bytes": 66256,
+        "sha256": "64195ae30357e7322e79eb0c9684982ef37bae6ae8206c143dc4fe5ce1b33455"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_en_01.mp3",
+        "bytes": 130203,
+        "sha256": "6a56167cc5446bf770cf86b7d9bd7241537512f141ce831490240d1edd323415"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_en_04.mp3",
+        "bytes": 192897,
+        "sha256": "156c7ba97026f6e7f743a75b069acd2c6e94aadf013c45898166eeaeeb22ee0b"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_coop_en_05.mp3",
+        "bytes": 181194,
+        "sha256": "52b23ee36365c55d04f436bcda43e0230d1daf93228be9abccae5260caae459f"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_de_01.mp3",
+        "bytes": 140234,
+        "sha256": "ebbe37c45efb10b4e94a1cafe65cb40f0cbf7705f59de65d2c9bbdaed43b2c60"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_de_02.mp3",
+        "bytes": 187882,
+        "sha256": "e1bf0fbf91ab344871cdcefd617bde3e327afbdc58c09532e565c067fda2eb66"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_de_03.mp3",
+        "bytes": 122680,
+        "sha256": "17a00c221bcba9a65da2f9877859b2439cdd4726a0d713f9a25a87ca1b1ff8d4"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_de_04.mp3",
+        "bytes": 213377,
+        "sha256": "29356e76627259102c07f7175bed173fb0d94d1c754b9182deeb41a188d46abb"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_de_05.mp3",
+        "bytes": 150683,
+        "sha256": "0fbce8acb6c5b6485e9214ad0b259719070ac1cf3b3dd60c927a6a9ffa261bbc"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_de_06.mp3",
+        "bytes": 155699,
+        "sha256": "31145f9caadaa2941a1badbcc20d6fb39f6d9ee5c3eda160a867db25c676a454"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_de_07.mp3",
+        "bytes": 65002,
+        "sha256": "92973e7bf3b4442a064bd9acf14462f89ac76e0215364508b9560d8d789804cc"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_en_01.mp3",
+        "bytes": 128950,
+        "sha256": "4113918bd0e9cae541d3fbca20d6f7e5dc888082d61c18f135d464d0932c1578"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_en_02.mp3",
+        "bytes": 171163,
+        "sha256": "4221b779b472dd088d2be34787265ea02fa45bcf4bc83b4ea768bee3844624a5"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_en_03.mp3",
+        "bytes": 110977,
+        "sha256": "0517bde1d8c592ae2cece939cdede68a756f01564d595c1405b0f5615fdb3400"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_en_04.mp3",
+        "bytes": 178687,
+        "sha256": "6f89c0a1613990b0126f80f2c7e1332fcb233f4bc6a3b87be06ffc74aaf2a830"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_en_05.mp3",
+        "bytes": 159461,
+        "sha256": "6d29d8fd2ca24a275a61e5cd5e931a3413c879285bbcbfaf60cd266a0ae066c0"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_en_06.mp3",
+        "bytes": 136473,
+        "sha256": "fa5bacfa656cd4d56d25005439ea3cb350ec2e4211988509e06c5894e96a6891"
+      },
+      {
+        "path": "src/assets/audio/voice/intro_en_07.mp3",
+        "bytes": 65002,
+        "sha256": "eef0270754a7fdbbffb7982402aba0e55fd6c47d767a9a43f2faea48f6142f6f"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_arrest1_de.mp3",
+        "bytes": 48945,
+        "sha256": "86eef3a9171da82a21780fa757ec79bca9d20c05319a99c18841ac91547cbbd4"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_arrest1_en.mp3",
+        "bytes": 38078,
+        "sha256": "0ffc532df077530329ac9431d91c5eaf9bcb842b0858849bf439fa4563830e77"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_arrest2_de.mp3",
+        "bytes": 40586,
+        "sha256": "ade714078c91a3b8a1e97770abefb2623407624bad7ad4573b57669d29f3a197"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_arrest2_en.mp3",
+        "bytes": 37660,
+        "sha256": "9deb3a4bf78f50dd3236b8b14129c71f65bff90126e78e2da7d923bb3ab1ec05"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_book_de.mp3",
+        "bytes": 35152,
+        "sha256": "a2cd2e306b250668e913635b8f8cb4b5e5759833c68a2b8101c3eaf92abea736"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_book_en.mp3",
+        "bytes": 29301,
+        "sha256": "e0a84b07aadd192c7641335edb95e1dd13520a5e4f1d5b667f413a77b6d410d3"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_bye1_de.mp3",
+        "bytes": 15926,
+        "sha256": "841b513d8cdb9103b7a984b07c0f625a88d636326fdf6639e0320e27559c403e"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_bye1_en.mp3",
+        "bytes": 18852,
+        "sha256": "8cbf977c86cf286ae8587c41d5fd5389324f7552e7dfc64cf189939cc493aeb6"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_bye2_de.mp3",
+        "bytes": 22195,
+        "sha256": "7cca55c5b9936aeb6da29b889f1bf2bfa751e47e6bf23e20d9cd0ab82090b857"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_bye2_en.mp3",
+        "bytes": 14672,
+        "sha256": "93a4670a5bf2bd79c77e17802b44c70b068dcb11ec74d4818f3582e9b24b1bbc"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_clean1_de.mp3",
+        "bytes": 28465,
+        "sha256": "a6f12bf8d2492a60ff33cbaff0b0641622a2161326c49e8fd181975b585f5eea"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_clean1_en.mp3",
+        "bytes": 30973,
+        "sha256": "93f1bf32ba97c9cb007f2456ca1257ca6b4e3dd4ff3773a473057a5393d22cfd"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_clean2_de.mp3",
+        "bytes": 35988,
+        "sha256": "ede574784ae26b266edd6bb12360ebcf43b5ae1049eef1707538f3380c93e449"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_clean2_en.mp3",
+        "bytes": 27629,
+        "sha256": "ba9cf762011605f5f42fc4136096c0beff1257acbd656ace49da91ecc66e7576"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_clean3_de.mp3",
+        "bytes": 36824,
+        "sha256": "7eb7e677015f13bb7ba73a3b1ece6e48407c04a50fd94483ff870423f407c56b"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_clean3_en.mp3",
+        "bytes": 36406,
+        "sha256": "25803540be9c1e4312a7db42e7c9a2fda8ef7f1cff9e44558a200fde67fe7857"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_coffee_de.mp3",
+        "bytes": 47691,
+        "sha256": "f47c88ff4b63673ece4c0f36300452de82a64de9388967e8281d101e1cad45a5"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_coffee_en.mp3",
+        "bytes": 46019,
+        "sha256": "8dbae7b5decad6562b377d94f7d16e2345e08d7f6c66e0e6f9fbff37c42c4fbf"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_cup_de.mp3",
+        "bytes": 34734,
+        "sha256": "06041e692e8b173814fb17a948559760f7d2b6ef157f3fbabd7b81d08f29f19a"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_cup_en.mp3",
+        "bytes": 34734,
+        "sha256": "7e1483ea21f96b121ff3a9b050232a6781952a1e30cfae1d0811c439f82b5caa"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_false_de.mp3",
+        "bytes": 69007,
+        "sha256": "4128bb2bc3a2245a015a2b15f621a246df9d1c5f3e15a1856792ea5fca7ca584"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_false_en.mp3",
+        "bytes": 59394,
+        "sha256": "09d526b38a5fd7a58faf468efa415754c0003d4a5ebaca8fa00e9ae1683d4f69"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_fine_de.mp3",
+        "bytes": 33480,
+        "sha256": "f4e5b598b724306867f9bafb039427cfbfb8cc7e356fae1be7cee98530fd9ca8"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_fine_en.mp3",
+        "bytes": 29301,
+        "sha256": "2b1308e5405b225c0cbd02b01fe54a0e1fc15e07b6f3331541a369d4105ee023"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_found_de.mp3",
+        "bytes": 45183,
+        "sha256": "1f4b754778903e6ade4c449d02f23112a4281878fd46bb19147d463c9ed5a919"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_found_en.mp3",
+        "bytes": 34734,
+        "sha256": "8de3b972ffc81e4c76b4e3a634272a89061e228e27ce782bb870f219f97a85f4"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_hot1_de.mp3",
+        "bytes": 37242,
+        "sha256": "35b1ed60d0560cfa7984594860f5a3c35a6225556b61f6a21f89e0b352d7ee8d"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_hot1_en.mp3",
+        "bytes": 39750,
+        "sha256": "32f8eac54d182067408c44aedc456bbe82e116daab043170c0fdf63fa21da6a2"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_hot2_de.mp3",
+        "bytes": 53124,
+        "sha256": "47985bb6b5fe6326f7f24012977e8c70a658273edad7782fd08c91f348bd7d55"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_hot2_en.mp3",
+        "bytes": 46019,
+        "sha256": "aef990d881769d70ec03c87707197c20c493d8b51ad77d3749887dd0aa8edab6"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_insp1_de.mp3",
+        "bytes": 60230,
+        "sha256": "8232843ceb95bcc16478715b39242b8466d90bc457784990e622d9c1f46dc37c"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_insp1_en.mp3",
+        "bytes": 60648,
+        "sha256": "a61f16d1e4b0facaa9838d4e4572582ccbd9f7caa53605e8c00c35609b65175c"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_insp2_de.mp3",
+        "bytes": 48527,
+        "sha256": "f7251bf4e3bf62c8b312de90573c5b59952cef87c96e743b73591e035bcf309d"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_insp2_en.mp3",
+        "bytes": 45601,
+        "sha256": "27b0d0a3a6033513aca8631ceadbc4541d1febb40d774aa0c53380f906298289"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_insp3_de.mp3",
+        "bytes": 42675,
+        "sha256": "9aac373cc5e1af2b2096e4038dd5f34f447e2af3dfabeceedecc597bce92f2be"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_insp3_en.mp3",
+        "bytes": 41004,
+        "sha256": "a92c6552d186d20241d2ee97a356b2fde15a038f7054faf07a8935f3d0ce7269"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_intro1_de.mp3",
+        "bytes": 88651,
+        "sha256": "ef3e317a4abcc49eca69c26d8abe1010b242bfbcb4e7fa590a615dbb792c045b"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_intro1_en.mp3",
+        "bytes": 87397,
+        "sha256": "4e2f6c864e4880eb71918df4592dc7155bad4bcde934fbc774cdbe1063737468"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_intro2_de.mp3",
+        "bytes": 93666,
+        "sha256": "4107f14573bd0ce2c0bb25d90a87f1f1cdf7f3142363624deac6292ee584fd04"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_intro2_en.mp3",
+        "bytes": 88233,
+        "sha256": "50699611b6169f5a7e562f1441824a745f7aa755059498525122bbcc6685ca04"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_late_de.mp3",
+        "bytes": 62319,
+        "sha256": "1efafd4529d8c7593db0160d3c049a33000fb2eba64c71f712212fbf9f97d09d"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_late_en.mp3",
+        "bytes": 55632,
+        "sha256": "f1921257b662326297641c4c7b0e5e08aaadd780adc505a8f0a7d10016305a84"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_list1_de.mp3",
+        "bytes": 61484,
+        "sha256": "9ec5b0f7bdd5386f6ee61f1ebb145c500baf5e17371c30301897eb90d8b38533"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_list1_en.mp3",
+        "bytes": 46019,
+        "sha256": "0b7f0772b3369b66233ff28c4c538474f75d67a93903f4e3563842317c0bd322"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_list2_de.mp3",
+        "bytes": 49363,
+        "sha256": "b7031e127148fe9027321aeadd321c9b1466ed5a234e117c6c7393d9a77fd4b4"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_list2_en.mp3",
+        "bytes": 48945,
+        "sha256": "7ec3474e0050924f0a8e811cfb69f29c38107f40a85bfcf75cac9ce7c65958a7"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_look1_de.mp3",
+        "bytes": 24703,
+        "sha256": "d9d1caa7599b9d8ea4b2f1141d0964097ec589284afd02824462d86a7ef1d31c"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_look1_en.mp3",
+        "bytes": 26375,
+        "sha256": "0c192ae8dc865fc3eb0b3017a433484f98496c698436b3e1b728e7b12c1f4e1e"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_look2_de.mp3",
+        "bytes": 25957,
+        "sha256": "03c5dd210705ba6024d532701ba251d4107946694a3521d5aac2197fb61c66b9"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_look2_en.mp3",
+        "bytes": 26375,
+        "sha256": "50a5f4c11b9902ad699dd939a2dd42e3ae80b999411ac0e84b692f342b074f24"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_look3_de.mp3",
+        "bytes": 28465,
+        "sha256": "538506ba632d9a2417470a59b135b7d07abd9d100c1503e9db451d0598cffe4a"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_look3_en.mp3",
+        "bytes": 22613,
+        "sha256": "1a77e3f61390ec3af2adec77f559aaaa2fd6100b2f1c6908b944cf608301fca5"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_phone_de.mp3",
+        "bytes": 53960,
+        "sha256": "5d139326c1068fc1a6506cde1bbc5c002746bdb19c04ef487f66fbde9fb776ab"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_phone_en.mp3",
+        "bytes": 58976,
+        "sha256": "b78932ded77d5137f560980b08332a6da43f3e5ebe31c9233d8b5f1ba3cfcd6d"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_raid1_de.mp3",
+        "bytes": 40168,
+        "sha256": "2126da32a85864be22fd5e20445bc439dd69c7ad9527f29c081eec088e84f698"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_raid1_en.mp3",
+        "bytes": 40168,
+        "sha256": "86aa84749ea0f523406cd46e1a87e67cdf0eb2671fc9c1c0d23a9c6c880560a1"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_raid2_de.mp3",
+        "bytes": 30555,
+        "sha256": "46f39e258a7288b3cdbf13d320d9ef303c79eefdd14e962f9e0d6fd8fd9c7966"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_raid2_en.mp3",
+        "bytes": 23031,
+        "sha256": "23a4e78b6fa53550bcacd0651a5d717ab7daa95319d69f0a7d5f2e5b1e82c036"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_reward_de.mp3",
+        "bytes": 40586,
+        "sha256": "b17821f021a8aaf8b74661d5a2230cdb6ebf6b4aa361760b86a1b9a0ca4aa128"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_reward_en.mp3",
+        "bytes": 25957,
+        "sha256": "7ee9b168715cb14f124ff90397a7d1fca2a651608755bfe373004c1ea06db4a0"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_small1_de.mp3",
+        "bytes": 33898,
+        "sha256": "2f40dd448f30583d1a608d1ea59d35f835a551ce4ac33bb85c615065ca301313"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_small1_en.mp3",
+        "bytes": 27629,
+        "sha256": "b9d8b3fff9c78e32e779e54633e501e6897de7c1f80eebff605d086e9b42d4ee"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_small2_de.mp3",
+        "bytes": 48945,
+        "sha256": "04bf9cc87bc3011daba603e7041f9bafd9cf15c2edd7836d336db998bd39b005"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_small2_en.mp3",
+        "bytes": 46437,
+        "sha256": "056f35e139eaea94c3630e65f2f7e78e5d563b251f8e94267d7d19d9878b09e3"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_spook1_de.mp3",
+        "bytes": 65663,
+        "sha256": "6218a3e57e751728faa910a1a42e0729df0c829a3e6868a39e06b4b4670ce4ac"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_spook1_en.mp3",
+        "bytes": 63991,
+        "sha256": "f2ec5cb4cb120011b131bb52a54549a66cd9c608c29ce5c3b5b74933993b3cb1"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_spook2_de.mp3",
+        "bytes": 43929,
+        "sha256": "6826a8e05abce853200b6b0ba46f4286bb7ab040a908878a2299a7dfc156f2c1"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_spook2_en.mp3",
+        "bytes": 45601,
+        "sha256": "fba8b9ee8427a4716c5118f91833c3b6c001b7d4e832ca303793fe3641341b26"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thanks1_de.mp3",
+        "bytes": 48945,
+        "sha256": "d09e1853bb5091c905fab045ec1941704d84ef1d4eee82a851bacc46a4e70c02"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thanks1_en.mp3",
+        "bytes": 35152,
+        "sha256": "e1cf2206fa367c5cbf943649f6e1beef6d107413165c5e6586b95aded3557a26"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thief1_de.mp3",
+        "bytes": 38078,
+        "sha256": "9d6f42a4eba0a1e7c7d670b71327531d10e7d21f3e935dfe4ea899e6f17d0384"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thief1_en.mp3",
+        "bytes": 41004,
+        "sha256": "82fe3eaa5e8ebc8c7028562d416866d00ed9fffdd8e091a1e34e12a81c5dfcdd"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thief2_de.mp3",
+        "bytes": 42257,
+        "sha256": "e9ad8744c4405096b5041c459179b9b291caf73cddda56ce699c14d22563a87d"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thief2_en.mp3",
+        "bytes": 40168,
+        "sha256": "95163ddce7b22e4543d487feb183d7c0ab2e90600b3eecde62bad5e44f831499"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thief3_de.mp3",
+        "bytes": 34734,
+        "sha256": "c6209544cec89ce1c5645a7c37764e3284b988c8612bb127bc3f78a92273c577"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_thief3_en.mp3",
+        "bytes": 28883,
+        "sha256": "ece50ef567be50efd80a446543c6589091e55bbd952c3c030cadd8c7cebb0c09"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_tip1_de.mp3",
+        "bytes": 58140,
+        "sha256": "fe6e974f828e58e5bcf7fc575af2c27ee5679ba31e1541f1ca844e3d8d40a782"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_tip1_en.mp3",
+        "bytes": 47691,
+        "sha256": "cd12bf9c9873c23a6b965dbacb2e71d71d6c99fbcdd4ac97fb7dd6adf79db391"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_tip2_de.mp3",
+        "bytes": 58558,
+        "sha256": "632a12304324b4f7d3aceb4cfa673fc47f7bf8268961b10c0a1c59cae91f0030"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_tip2_en.mp3",
+        "bytes": 51871,
+        "sha256": "8e5bfd04e8636b50320aee83d69c6eecedb768e5430e78c25165d14ef729ae35"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_tip3_de.mp3",
+        "bytes": 56886,
+        "sha256": "d9f425e622a2a9132c583ba97be714e41c26d63ff44819bbfe3a0862890aa1e5"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_tip3_en.mp3",
+        "bytes": 56050,
+        "sha256": "e864f3c5050c8cc274637f2e7289d41788ecda1c1dacb4da61112ace2bf6ac1d"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_warn_de.mp3",
+        "bytes": 35988,
+        "sha256": "304fddc5d8a3fb9179faface09a5f8e160276b029ce9832eeb3290f2c43c7bcf"
+      },
+      {
+        "path": "src/assets/audio/voice/pol_warn_en.mp3",
+        "bytes": 33480,
+        "sha256": "f7a70c5d611556da7895f667ea694cc73ff4ce018b6f428dfe7804973ca80bdf"
+      },
+      {
+        "path": "src/assets/audio/voice/police-manifest.json",
+        "bytes": 1889,
+        "sha256": "3da5c884ec4048f100b50ac496b21eda1886cd1148ac68699a3dc5df5f8bba5b"
+      },
+      {
+        "path": "src/assets/audio/voice/spook-manifest.json",
+        "bytes": 1865,
+        "sha256": "c0990585399eb08a080337e8c8945b14704d4242870ee980e3522f3fbf0fa7bb"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn1_de.mp3",
+        "bytes": 47030,
+        "sha256": "0044eafd3f18801eda589ae18fc70e121d6e073a8f232b97bda62e6187d34d72"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn1_en.mp3",
+        "bytes": 49537,
+        "sha256": "660cf63e189b603dcd2e66918ec6a813273002295bcc10295153d39f2ae00266"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn2_de.mp3",
+        "bytes": 61240,
+        "sha256": "5bfd7aa777d631d48f1ff079be6d8e3037965f3b423ea8766fc902594db2f115"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn2_en.mp3",
+        "bytes": 63748,
+        "sha256": "58676fbc3fa625531d336c7597dd0060ff7c1f713dd9271532d0933ff2f0edc2"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn3_de.mp3",
+        "bytes": 53299,
+        "sha256": "67025f68364dd126ff61939a3aadd8978917d16de0250c24721b26e8d3041bdc"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn3_en.mp3",
+        "bytes": 45776,
+        "sha256": "4b191c17ed1f5cdb1254becd6fbf02530295f3150fa1adfdef015035db4ad18e"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn4_de.mp3",
+        "bytes": 50791,
+        "sha256": "e9f17baca2f85653822aa3f9209f9324b27d12d31e839c35bbbb69ed1e9869ee"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn4_en.mp3",
+        "bytes": 57061,
+        "sha256": "1ea819a5c2f47b156899c5f989c13b7fb9e54ce2ee8a7552ce21d7639c23bafd"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn5_de.mp3",
+        "bytes": 54553,
+        "sha256": "da438370491cc038b906e2f13f348516e4cc6ff5c4e388fd8ab9b3531a817cef"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_backturn5_en.mp3",
+        "bytes": 61240,
+        "sha256": "8f855e9de4cb28c3af5523e063f9932e7846e77bb3fb605a713c5e4548a135ff"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_empty_de.mp3",
+        "bytes": 37660,
+        "sha256": "f9512ff3f488b293dbc385a2897d440d98bb9a49699666f2c9a84bdbc3902cbc"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_empty_en.mp3",
+        "bytes": 40168,
+        "sha256": "88491e9bbf8bee803c75c32da8066268c595a4f18e8bd2ae3757588542ec25e2"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_hands_de.mp3",
+        "bytes": 47273,
+        "sha256": "e77e23fe4013247d1ed495f391b1307e66ac1e8136eff74718dde39b56a75e91"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_hands_en.mp3",
+        "bytes": 48109,
+        "sha256": "1ce81a85d4c75a5d07dc9826ba343fab6d3ae714670a88c18180a478f1dfdde2"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last1_de.mp3",
+        "bytes": 25539,
+        "sha256": "3c4346c8ac9c7a8ebfde6267dcf0efb367cd53d05966b81517e56213c0c741d0"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last1_en.mp3",
+        "bytes": 29301,
+        "sha256": "1e460d8593eac9f0b6a51526c114b646800cfc64a6b120cd86207d49e312a29e"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last2_de.mp3",
+        "bytes": 25121,
+        "sha256": "05234c8773edef099c8b6e23f2ba2093dbdc8107492c1e876125cdf006fce53c"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last2_en.mp3",
+        "bytes": 29719,
+        "sha256": "7952ab5baccf6d0092aaafcc8b0e3169bc1525a5591220e94da78d1747fda0b7"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last3_de.mp3",
+        "bytes": 44347,
+        "sha256": "82c5e36a9cb2ed9d4691fd9d8df0d1ddb0909c4b77994febe2ee9c40487c1f92"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last3_en.mp3",
+        "bytes": 48527,
+        "sha256": "9d918e6f03c4692abf60c005c3654af4250784989c6857ba401e2dc9c0f28cc3"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last4_de.mp3",
+        "bytes": 35152,
+        "sha256": "00f694c17b69cb8248120a60370b389556bcf35929fc9c03cad049c3cf4d369d"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last4_en.mp3",
+        "bytes": 35152,
+        "sha256": "2a18183de2a614c7410974cbbd34c73308834503f78738a0041cbde6f54e5a11"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last5_de.mp3",
+        "bytes": 13418,
+        "sha256": "2d98992790ecc820d9af17faabaa361ded770efd2145d1bc5020f086f42a2c82"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_last5_en.mp3",
+        "bytes": 19688,
+        "sha256": "ccd76467e79217bdafdb6445773fb8ecf8589ccef6b80c8b9e85a2e664ee5722"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_open_back_de.mp3",
+        "bytes": 48945,
+        "sha256": "46b3c3293eb1cb5fff08ae9ab962528aebb4cbf5d5a195610c431f2bbe69f7c4"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_open_back_en.mp3",
+        "bytes": 48945,
+        "sha256": "4923e365f564656c2847e960c81b3deefc096a8b61ab8ece283d2c6b29c24583"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_open_counter_de.mp3",
+        "bytes": 33062,
+        "sha256": "efdc572d91007dfad4c50cd85dead5b06dc7664e944359004b59d275893e39e7"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_open_counter_en.mp3",
+        "bytes": 35988,
+        "sha256": "c0b9585fb5be9e20438e5c7051dad2999f9a26c78d3cc76ca41e0b323d7b49a6"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_open_shop_de.mp3",
+        "bytes": 54378,
+        "sha256": "3f6729547e8a9138ef4e1c2b96073c5366935a66e05f43ea73072648f5259178"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_open_shop_en.mp3",
+        "bytes": 62319,
+        "sha256": "665ec96a355e54a346d812496e73a4650319938a9ced871b11a8adb8128603e4"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_till_de.mp3",
+        "bytes": 45601,
+        "sha256": "7e55c876876dad1446c249f84d30765c7ef442c57eb830e6c1cf71829a5b1b3f"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_till_en.mp3",
+        "bytes": 54378,
+        "sha256": "bb6859f35f2785a14c57b42dbbb64c543110291cca53f971c238954a8ed00def"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_time_de.mp3",
+        "bytes": 43929,
+        "sha256": "47c43948bbc201e5a4494aca29fb939ab91916e92efc3518e21f52b3fbe38454"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_call_time_en.mp3",
+        "bytes": 43929,
+        "sha256": "a6666a83ab23965c3a97311b4a60df4dd7b7cec35b08dbc5db82cfecfc0a2358"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark1_de.mp3",
+        "bytes": 62494,
+        "sha256": "15ce9a0d01bd4a240212cab561f63f73026be7df582c3022a908e3f833e763ae"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark1_en.mp3",
+        "bytes": 65002,
+        "sha256": "1a5d2dfe75a19d6b293a102f1f0a93422c389517a1e033916c26a3333634a985"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark2_de.mp3",
+        "bytes": 55807,
+        "sha256": "bddbf84a8935c1d7f53c6dee21bc1681ae81cf6f790317067c4bea427df57d60"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark2_en.mp3",
+        "bytes": 57061,
+        "sha256": "9b79d3eb7e186ebbdd6cf2ecc01f71d7caf53a0b49346c7c5a2bf656e22e0fcf"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark3_de.mp3",
+        "bytes": 90497,
+        "sha256": "841a2545b6ee34b6e1413922096a54f397f4f62b1240cfa2c0d9e54255b39cb2"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark3_en.mp3",
+        "bytes": 89243,
+        "sha256": "600196fb1ef75f466d85e25ba09251eeab78eaa59a8d49dc36cd4f70f057bb8f"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark4_de.mp3",
+        "bytes": 81720,
+        "sha256": "2f3a7e602169640571c4c2c2b3b4c5bbaa6e1bfb3380da05a68e0d2258694c69"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark4_en.mp3",
+        "bytes": 71271,
+        "sha256": "f4d9dc2362e9df17ddab219d8de8835b5c00732565403bdfeebcd903c7dfb2f7"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark5_de.mp3",
+        "bytes": 68763,
+        "sha256": "2b1de9e4e458bef635d4ae606f7f141e3b45746e1b540cf6d355e2df69d650ec"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_dark5_en.mp3",
+        "bytes": 73779,
+        "sha256": "c5017a6264eca22e2fcfb8b6438c1bca243d38997119c03a415d6f3b93c9b6e7"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_paid_de.mp3",
+        "bytes": 39506,
+        "sha256": "a7a6cafc66ec230bdaa073bfde99d20962e705b89f22dd60d840475f6c733ed8"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_paid_en.mp3",
+        "bytes": 43268,
+        "sha256": "0846c49af844c767c94db7dea97254b69ed81a2bd81f4ac6b3b0d015513bbfbf"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio1_de.mp3",
+        "bytes": 76287,
+        "sha256": "2aff2caf041e2711e2676aeb463d40895086721eaebe964a392604df2d6e44e1"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio1_en.mp3",
+        "bytes": 78794,
+        "sha256": "2e7952bfe8bdbb931aeef5a4f210c2531e8456454011011cca6be1b30855be17"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio2_de.mp3",
+        "bytes": 89243,
+        "sha256": "8bdc5d4738733e6a1af641f9461dce836faf9cbd05c70816b17a3f017002a475"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio2_en.mp3",
+        "bytes": 90497,
+        "sha256": "197fb51b2224104cbffc9e054b6ead998135ce46c4650534d57d46772c5863a1"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio3_de.mp3",
+        "bytes": 72525,
+        "sha256": "e282be5b19562f3fcf0a6b644c236cd43689b7bfdc6c1b71e6d2e0514a7989e7"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio3_en.mp3",
+        "bytes": 82974,
+        "sha256": "969a473201f132fee8ddb2ede4428956e2b7747ac8c168d142841ff6feea6d60"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio4_de.mp3",
+        "bytes": 54553,
+        "sha256": "1246478e55d8fed919e19377578d2bc9f6085b226afec4bffb157f9afc1b16e9"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_radio4_en.mp3",
+        "bytes": 55807,
+        "sha256": "9068ec22bb38abf9a4dff141b51a7bd3205f5049f4872e214ad4cccdc23a7e00"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_staff1_de.mp3",
+        "bytes": 44522,
+        "sha256": "d5b6ab615c66b43ba4ac075c17d65d0e70081bd9f631a4afd5e9b67da21ac899"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_staff1_en.mp3",
+        "bytes": 40760,
+        "sha256": "a4e3908ee831ad330385fab02f95011027059786a6753fa6c95bf5b224babbba"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_staff2_de.mp3",
+        "bytes": 49537,
+        "sha256": "043574d1196625346f37e1508c634fd590de9060b84a6c706f87c4ccfc723841"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_staff2_en.mp3",
+        "bytes": 45776,
+        "sha256": "6820a7f60750c233ac3239a2c0690190b132e836ba6d16ba3a88711f27925475"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_staff3_de.mp3",
+        "bytes": 42014,
+        "sha256": "bb988271580b4eada93d8daaabf8710734224f71bb8b502399694974ab86cca2"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_staff3_en.mp3",
+        "bytes": 42014,
+        "sha256": "461cd79315333ffd43d6054f0c18b0a8dabb077ee921f4219b3bbb77b9352018"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit1_de.mp3",
+        "bytes": 109723,
+        "sha256": "e3e8eb7814c51ae9dbdad99a61a33ca7f24ca5f1b20ab9bda806a24f9b7d9c06"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit1_en.mp3",
+        "bytes": 105962,
+        "sha256": "895d6e20b044f374d9d1b56e485b3e3da846e085a567164a4772dd03e7764c27"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit2_de.mp3",
+        "bytes": 144414,
+        "sha256": "709a18b8754b4077c0d346c0e7c255b1764af0d30e931ac619fbb2e1bc2c49b0"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit2_en.mp3",
+        "bytes": 122680,
+        "sha256": "b069059a2798870206a562bfc7e44f66cc07dabbb460cb674a5077d78eb6c49f"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit3_de.mp3",
+        "bytes": 109723,
+        "sha256": "88a478d826708bee15d998e6dd1afa611b2c1ca5cea1bead802057deee4af742"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit3_en.mp3",
+        "bytes": 112231,
+        "sha256": "635ef04bfd15f6c2a3573b3de76f5744f93c5462848375ecbb3d5d2ce70ff422"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit4_de.mp3",
+        "bytes": 96767,
+        "sha256": "a84f5cf54ed960ae06e72811e3c5c3bd28ca5ecb4a3e891836c5561e584db750"
+      },
+      {
+        "path": "src/assets/audio/voice/spook_visit4_en.mp3",
+        "bytes": 95513,
+        "sha256": "03f0d84f9745b981a19f567b781e04509612df59d4daddc1cbb2c76ad8d72116"
+      },
+      {
+        "path": "src/assets/characters/LICENSE.txt",
+        "bytes": 913,
+        "sha256": "47017b43006da6166de75d97673ae22b14e2e9e76f2c8e742c847d1bf68a8fcc"
+      },
+      {
+        "path": "src/assets/characters/characters.json",
+        "bytes": 52632,
+        "sha256": "c840a668045577110a37640d53786f371e0fba98460248b4095cfb15ebb37076"
+      },
+      {
+        "path": "src/assets/characters/qf_casual.glb",
+        "bytes": 621100,
+        "sha256": "f56ae897266a71c01f78b00419599a9504013d10dfc88b47ca7154047f1c5e08"
+      },
+      {
+        "path": "src/assets/characters/qf_formal.glb",
+        "bytes": 587944,
+        "sha256": "5314ca384481eeba2515a77abb3780cb7cb972efa8a14a09d21120a40b640515"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_1.glb",
+        "bytes": 638352,
+        "sha256": "7a022d57eb34768c137f065d46bce3a8baa6fbf07b141d19965e3aed45750994"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_10.glb",
+        "bytes": 662248,
+        "sha256": "5f0c33b5ecde3844d3f3f0238eb02705ab9ef6a0997fe473800adfa4f42dec2f"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_11.glb",
+        "bytes": 647656,
+        "sha256": "9e2fd4a55ac5b5f4957e45e41b65e357810e46628d4147d61e98c432141d7228"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_12.glb",
+        "bytes": 609596,
+        "sha256": "7801248eabfbf26b0a76128447acf2018660a18315f3fa72ae193c971f966226"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_13.glb",
+        "bytes": 638348,
+        "sha256": "1e13b19974bf77b08257b4b9f1eb7988a40af688a832f3ad6c910746f163bfc4"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_14.glb",
+        "bytes": 656200,
+        "sha256": "d038f585cf9b006cf64c423b3e6c85ec9f20aaa717b21b99abd446054070c774"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_15.glb",
+        "bytes": 639692,
+        "sha256": "608a297772185ced9611b813321ac881928c37c7e145516edd94129497b042c5"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_16.glb",
+        "bytes": 504432,
+        "sha256": "270ef9fb7ba4cef756f57badb4b0578ccb119dc92ecba0e65d1216c2dab5eeb1"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_17.glb",
+        "bytes": 615052,
+        "sha256": "3fb0c86ec1d68c71926560ea00f9a3d1dcca811d9a0afa201ac1271e25c66c66"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_18.glb",
+        "bytes": 671540,
+        "sha256": "5982951fd945e718e51c3564a282e1b2fa124fc25ef513bce87e23a09491f2af"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_19.glb",
+        "bytes": 517344,
+        "sha256": "20b6bcea4fc0cbd7e2340daef877e6f94f7a65313df29afc0a8d944c508540d9"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_2.glb",
+        "bytes": 654356,
+        "sha256": "79e54246f34cac10cc8fb9fe22f9fcf330e9258a7aeb3f6cf50b55e28231663b"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_20.glb",
+        "bytes": 634740,
+        "sha256": "0f905e4126dd20e2434786da2df65cb6d13be1dcbee467aa8a6c2fd915520ad6"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_21.glb",
+        "bytes": 630388,
+        "sha256": "727521759569403114f0d65e5a4d735a1fec1eb6c3f24efbf1deaef8a142d7eb"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_22.glb",
+        "bytes": 549192,
+        "sha256": "285949218ca6afcb7c50d09fd29d8a030e512bace17915b8903c74def881b55c"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_23.glb",
+        "bytes": 647648,
+        "sha256": "aeb73ae19950eefbd0c6b8384cf620ed6b50688d095c8c852d82c58a2979009c"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_24.glb",
+        "bytes": 611444,
+        "sha256": "598c26b96893b0f8e4bc23743f0786b59232ec099d2cd64e122d9c26758c6dbd"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_3.glb",
+        "bytes": 528388,
+        "sha256": "2da329b397ef6b549bd585cf22791e28467a17c1a336a2ce5fe410c73b942d78"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_4.glb",
+        "bytes": 617488,
+        "sha256": "15ed1c486cdeb5d54e584a38963d2a6e6d819f9b79e076ebbcffbfdad7c58887"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_5.glb",
+        "bytes": 613204,
+        "sha256": "43a9a6050a60ddd24cad5ff949879cb329045942dbe4230ada5411584375986f"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_6.glb",
+        "bytes": 560236,
+        "sha256": "cf10ea02b555bdf82fb3ce776481a010f8130effc2c5362e7b8e85087f9c7e96"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_7.glb",
+        "bytes": 630400,
+        "sha256": "4c91fd341867c63d55e474733f5ac3fbf535946b0a7442045284a50a82cc0111"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_8.glb",
+        "bytes": 634744,
+        "sha256": "bb494ce7d175c31298525782a92eeb20bddedbba2a63a533ad63395e362c798f"
+      },
+      {
+        "path": "src/assets/characters/qf_mix_9.glb",
+        "bytes": 519084,
+        "sha256": "45b728f4926a7d8ca155ebd89bfd1ac5ed9531f261e7fda0d6b6e5283e469c7b"
+      },
+      {
+        "path": "src/assets/characters/qf_punk.glb",
+        "bytes": 566352,
+        "sha256": "aa62948238d3b0d0ffd25eb1bb19ed89218e7d88e2fbfa958855da800bce39b0"
+      },
+      {
+        "path": "src/assets/characters/qf_role_police.glb",
+        "bytes": 624348,
+        "sha256": "fe50ff93d2cc726de8a0ebe83e83b9e417f2e0fccd0292a69050923ec26f9666"
+      },
+      {
+        "path": "src/assets/characters/qf_role_security.glb",
+        "bytes": 624348,
+        "sha256": "fe50ff93d2cc726de8a0ebe83e83b9e417f2e0fccd0292a69050923ec26f9666"
+      },
+      {
+        "path": "src/assets/characters/qf_role_staff.glb",
+        "bytes": 621100,
+        "sha256": "f56ae897266a71c01f78b00419599a9504013d10dfc88b47ca7154047f1c5e08"
+      },
+      {
+        "path": "src/assets/characters/qf_role_suit.glb",
+        "bytes": 624348,
+        "sha256": "fe50ff93d2cc726de8a0ebe83e83b9e417f2e0fccd0292a69050923ec26f9666"
+      },
+      {
+        "path": "src/assets/characters/qf_suit.glb",
+        "bytes": 624348,
+        "sha256": "fe50ff93d2cc726de8a0ebe83e83b9e417f2e0fccd0292a69050923ec26f9666"
+      },
+      {
+        "path": "src/assets/characters/qf_worker.glb",
+        "bytes": 592556,
+        "sha256": "2eec41b7117b661ecf08306963e3e9362adecd527d6559dae042a71cd4fd6af9"
+      },
+      {
+        "path": "src/assets/characters/qm_beach.glb",
+        "bytes": 635512,
+        "sha256": "c40f0cfac7b8814c8298bc18f952acf6a635d5bb175c76a65f91d746fcd9ed06"
+      },
+      {
+        "path": "src/assets/characters/qm_casual_2.glb",
+        "bytes": 559564,
+        "sha256": "c4d46ae4c32bb89c2fbd524b97b5f9b2a593896b13fb6f53dd8b2e2179a2093c"
+      },
+      {
+        "path": "src/assets/characters/qm_casual_hoodie.glb",
+        "bytes": 599900,
+        "sha256": "3ef55f08e63f868fe09329a8db7cf9108dd2d036ac268fdf0644ba576782d3ec"
+      },
+      {
+        "path": "src/assets/characters/qm_farmer.glb",
+        "bytes": 528856,
+        "sha256": "e426a9d9a71f97889fb7023a75a7692c874ec09c720cc6ceadc117749104bcbb"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_1.glb",
+        "bytes": 614752,
+        "sha256": "80fe545a462c5cc110785c441a18a2ac891e00b36a82e419e4a466e88c2e615e"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_10.glb",
+        "bytes": 631516,
+        "sha256": "c9c0427c2a3bd909da802c1d1cc7905bbe7a5791a32da788f3f320ce94102cc8"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_11.glb",
+        "bytes": 590488,
+        "sha256": "2048044c2dda8281949215f462bb789cb8ec541d969fcdb07bc024c7134237cb"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_12.glb",
+        "bytes": 534784,
+        "sha256": "f1d0dc6693478ef38b71554b9d208f2a0d12d3de413e4e1efd3b5f6979e51293"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_13.glb",
+        "bytes": 624860,
+        "sha256": "0b463fde02480e9e949f35df290450d90f57c57f0620b46e3bf781d98ca16368"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_14.glb",
+        "bytes": 636484,
+        "sha256": "7abe8f2652e77e46270b0ad72e1b20d295b00c76a50f499933410bf2dc67b0f0"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_15.glb",
+        "bytes": 611636,
+        "sha256": "5f9de6ba7b9f9b367861ee2720e554eb2c0fc11065ed0ada975ba9fd92c1fd40"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_16.glb",
+        "bytes": 531260,
+        "sha256": "bd366ffb446400422f179bde124a6358ae04c5e545ca7558b09b07cc7e00f337"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_17.glb",
+        "bytes": 635516,
+        "sha256": "e41e1463be5ec1bfba050a54e87d6cc8ad95ba1567203da4ccf0a6ba18c1a814"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_18.glb",
+        "bytes": 638616,
+        "sha256": "297b983946762a0ea762138c53d2dcc2ea5f799a0e021ed37fb9903aeabd052a"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_19.glb",
+        "bytes": 556340,
+        "sha256": "f6b42de30eccc5e620f1fa328d7ec2cdb3d388061cf5e6ec62b17ba7f680074a"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_2.glb",
+        "bytes": 584040,
+        "sha256": "10e55c49894c031ae7613b5f39029f7b4e9016ba73ab7874a190c3a680ff8328"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_20.glb",
+        "bytes": 602196,
+        "sha256": "faa13605737c3b05500b31f025885d46e5cc900dec4a7bf7a17cb2712dac1762"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_21.glb",
+        "bytes": 678344,
+        "sha256": "d4de7033d347b5339809f4f07dca6c329145350d0555c8ec475419828faaaeb4"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_22.glb",
+        "bytes": 629216,
+        "sha256": "682c52ab011ee0aa160d26c6aacc06b53434fd3212d0f85084cf4c8401f0c583"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_23.glb",
+        "bytes": 572508,
+        "sha256": "73bbb9f01ef832d2928f42ad3561ca4ce80f8a4ac75bcfcfa332dc57de7a8ec7"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_24.glb",
+        "bytes": 597820,
+        "sha256": "637856e73dc92cdeb57f10aeb88f7a29b59961c0fbc74c06ddc2657565bf6884"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_3.glb",
+        "bytes": 629604,
+        "sha256": "fe10e18cbf4e3b58acf578acb04bf9a013ce8c7f8ed3189f73af3fbda8e22e86"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_4.glb",
+        "bytes": 528040,
+        "sha256": "1ef3b50fbd209eb03263ed4f8288f0b80c37e31e99c55e37af37d3746a2a797c"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_5.glb",
+        "bytes": 637900,
+        "sha256": "6f9fb4e257184f2fe199e16a3e520b9a2bbd7d3d3943c71d7ccdb9f959712fc1"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_6.glb",
+        "bytes": 579672,
+        "sha256": "738bbbc240fec3a89981234d113cb44d9e7421ce3a751a9fd63fe1278419b34d"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_7.glb",
+        "bytes": 580816,
+        "sha256": "7830581f2ce4846cd3aa0dda2ff95fe1d03037afab1586f2ac580dfc7824dddf"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_8.glb",
+        "bytes": 538168,
+        "sha256": "f1273570956de58604d7f72d050213f29b88439e02d481019b0c47072271d323"
+      },
+      {
+        "path": "src/assets/characters/qm_mix_9.glb",
+        "bytes": 674992,
+        "sha256": "92efe45fc4644f2061d67a79f911377ffd9de557115fb2361de22d151183ab5a"
+      },
+      {
+        "path": "src/assets/characters/qm_punk.glb",
+        "bytes": 529796,
+        "sha256": "7332008b4360425c9b9c9d8d8cc3478fbd77774ba8a3d1e1c2b9308a65abed5b"
+      },
+      {
+        "path": "src/assets/characters/qm_role_police.glb",
+        "bytes": 634412,
+        "sha256": "b1281f48f3baf32bea7938514d5561562fa98ec37844f2f5421f9e4b020085e6"
+      },
+      {
+        "path": "src/assets/characters/qm_role_security.glb",
+        "bytes": 634412,
+        "sha256": "b1281f48f3baf32bea7938514d5561562fa98ec37844f2f5421f9e4b020085e6"
+      },
+      {
+        "path": "src/assets/characters/qm_role_staff.glb",
+        "bytes": 559564,
+        "sha256": "c4d46ae4c32bb89c2fbd524b97b5f9b2a593896b13fb6f53dd8b2e2179a2093c"
+      },
+      {
+        "path": "src/assets/characters/qm_role_suit.glb",
+        "bytes": 634412,
+        "sha256": "b1281f48f3baf32bea7938514d5561562fa98ec37844f2f5421f9e4b020085e6"
+      },
+      {
+        "path": "src/assets/characters/qm_suit.glb",
+        "bytes": 634412,
+        "sha256": "b1281f48f3baf32bea7938514d5561562fa98ec37844f2f5421f9e4b020085e6"
+      },
+      {
+        "path": "src/assets/characters/qm_worker.glb",
+        "bytes": 506720,
+        "sha256": "c5e24e2faddc361086c5c1a4f0859ddb377a45ecc245ae4169e0d047d47204f3"
+      },
+      {
+        "path": "src/assets/characters/sources.json",
+        "bytes": 3915,
+        "sha256": "597ed0aaa75a9ca8cb11de8398100bd2d691beb1b6d77404f024699ee954b935"
+      },
+      {
+        "path": "src/assets/fonts/BRICOLAGE-OFL.txt",
+        "bytes": 4401,
+        "sha256": "923f4ddf0fd39f9b7794ab0df7332f3d95dc43e8ad7ec2289d6d9e8491177f51"
+      },
+      {
+        "path": "src/assets/fonts/CAVEAT-OFL.txt",
+        "bytes": 4384,
+        "sha256": "163a2b400e16916ad3196296c946c526d0efce6baf22a2164269ffc62fb9f671"
+      },
+      {
+        "path": "src/assets/fonts/FREDOKA-OFL.txt",
+        "bytes": 4387,
+        "sha256": "9bbd4f5f107895d5a213579b73821fadd05105241cf4360e86050199fcfd6034"
+      },
+      {
+        "path": "src/assets/fonts/INTER-OFL.txt",
+        "bytes": 4477,
+        "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+      },
+      {
+        "path": "src/assets/fonts/NUNITO-OFL.txt",
+        "bytes": 4491,
+        "sha256": "40991bfa02ac620aae16dc527f3c47765a25e43f270d4c301ee6ab663a8d9015"
+      },
+      {
+        "path": "src/assets/fonts/PLAYFAIR-OFL.txt",
+        "bytes": 4630,
+        "sha256": "c052aafd2a71e90bcee6e69f475029d430a10d548c08ffcae350171f0e9668b1"
+      },
+      {
+        "path": "src/assets/fonts/RUBIK-OFL.txt",
+        "bytes": 4486,
+        "sha256": "46a250495a963b0b84f2736c0185d0e3af8df9d23427bd425b92a8ece020283c"
+      },
+      {
+        "path": "src/assets/fonts/SAIRA-CONDENSED-OFL.txt",
+        "bytes": 5424,
+        "sha256": "0defe4807af026ba4e576d25f0ec6a40a6890e4ed749e953ac53b8af479d666b"
+      },
+      {
+        "path": "src/assets/fonts/bricolage-grotesque-latin-700-normal.woff2",
+        "bytes": 22384,
+        "sha256": "4c373ce3c1cca41c864eb3e27c059a59fc6310547ab9c9b6cd780d387ba24206"
+      },
+      {
+        "path": "src/assets/fonts/bricolage-grotesque-latin-800-normal.woff2",
+        "bytes": 21844,
+        "sha256": "3e1b5f0a56ee995b7c1445bc54e6ec98c5dffb585ef5c4baf86731cf68e27c61"
+      },
+      {
+        "path": "src/assets/fonts/caveat-latin-500-normal.woff2",
+        "bytes": 50904,
+        "sha256": "edbfb1a768829d4e85127cd327e59faaec9701cb043e96430938f1f66acf009f"
+      },
+      {
+        "path": "src/assets/fonts/caveat-latin-700-normal.woff2",
+        "bytes": 51020,
+        "sha256": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-latin-400-normal.woff2",
+        "bytes": 16076,
+        "sha256": "9cf74f703532ef61311d6c6dd32a582b6e410727f5fce1dbf5570cbe6b023c2f"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-latin-500-normal.woff2",
+        "bytes": 16248,
+        "sha256": "7d76e44a94b02894b384fc98c124ccf521d8460bf0e0bbe31c1b6b4be6099620"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-latin-600-normal.woff2",
+        "bytes": 16468,
+        "sha256": "b62f2898de150f019961f4884a49f83dcd2ce74375be5e0992c594ebb8f30294"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-latin-700-normal.woff2",
+        "bytes": 15900,
+        "sha256": "ee61b48acab42fcfee4e1c398b03bbae7e09d1be8471779c440a97dc85118c16"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-tnum-latin-400-normal.woff2",
+        "bytes": 1788,
+        "sha256": "db60a199246a21536cd2f239993e277b9b65b0db272a292e39b1485e91e9b2a4"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-tnum-latin-500-normal.woff2",
+        "bytes": 1832,
+        "sha256": "14f39b66ce951a8eb94fbddbeb0699a403edbdf18c3313d6be6c341e4af268ea"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-tnum-latin-600-normal.woff2",
+        "bytes": 1812,
+        "sha256": "cf46ef8a2642c66252aff90468520f0df2461db324e5e38a261a83eaaa77fea0"
+      },
+      {
+        "path": "src/assets/fonts/fredoka-tnum-latin-700-normal.woff2",
+        "bytes": 1780,
+        "sha256": "b75d4785d97f77f989e3b053739b25307392d4c639d31749ed7c520b49fe7984"
+      },
+      {
+        "path": "src/assets/fonts/inter-latin-500-normal.woff2",
+        "bytes": 24272,
+        "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+      },
+      {
+        "path": "src/assets/fonts/inter-latin-700-normal.woff2",
+        "bytes": 24356,
+        "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+      },
+      {
+        "path": "src/assets/fonts/inter-latin-800-normal.woff2",
+        "bytes": 24400,
+        "sha256": "a7d0a50f15d389cad679238466bdb5fc9787aa0715719064ce25abaff042820d"
+      },
+      {
+        "path": "src/assets/fonts/lilastift-digits-latin-600-normal.woff2",
+        "bytes": 3404,
+        "sha256": "f5934b0237e4bdf717060d30797936c02bcce902ce6747f8e1dc6066d6d42086"
+      },
+      {
+        "path": "src/assets/fonts/lilastift-digits-latin-700-normal.woff2",
+        "bytes": 3436,
+        "sha256": "b5c90306786ba97d189a700d386aaa59d78cf04577520d4d9e00e5dab6186bfe"
+      },
+      {
+        "path": "src/assets/fonts/lilastift-digits-latin-800-normal.woff2",
+        "bytes": 3412,
+        "sha256": "d1c5ded72ebb7aaf26c6dad13f5a2d9fc59db43d96f8a3f7d16aac70a0210728"
+      },
+      {
+        "path": "src/assets/fonts/nunito-latin-400-normal.woff2",
+        "bytes": 16316,
+        "sha256": "a5906e15ceb68f73d3b2c2076b4057c3f6ed401186d56283b45ce12944ca0735"
+      },
+      {
+        "path": "src/assets/fonts/nunito-latin-600-normal.woff2",
+        "bytes": 16556,
+        "sha256": "45f437de32ff5973eb5616b43c1308bf9fe897442f3d78a603c4cd0a06d66573"
+      },
+      {
+        "path": "src/assets/fonts/nunito-latin-700-normal.woff2",
+        "bytes": 16228,
+        "sha256": "fa89300b9bbb3bd0f60d6991aa055965d98e2ccca27bf8688fe0c39cdc796846"
+      },
+      {
+        "path": "src/assets/fonts/nunito-latin-800-normal.woff2",
+        "bytes": 16520,
+        "sha256": "2363d3ed037283ebb961e8c4b4917e40a8bc8853cf9965cf1ea7b4daa1df630a"
+      },
+      {
+        "path": "src/assets/fonts/playfair-display-latin-700-normal.woff2",
+        "bytes": 23224,
+        "sha256": "28453852ea165c47b5a941be00e418402e1407002ed87507f062a1e316328fe6"
+      },
+      {
+        "path": "src/assets/fonts/playfair-display-latin-900-normal.woff2",
+        "bytes": 22372,
+        "sha256": "2772c56b28bec10f310634732b0554dd6cced8ad0f723bbdf73f6abc53829ad0"
+      },
+      {
+        "path": "src/assets/fonts/rubik-latin-500-normal.woff2",
+        "bytes": 19036,
+        "sha256": "54ad302324aa8000449efd8643186deb46777f0ca4d97f10deb9333536933613"
+      },
+      {
+        "path": "src/assets/fonts/rubik-latin-700-normal.woff2",
+        "bytes": 19112,
+        "sha256": "e423f8ae1668156addf5e32f1056d5b22b5b113a9a23afd364df84a6fa88602d"
+      },
+      {
+        "path": "src/assets/fonts/rubik-latin-900-italic.woff2",
+        "bytes": 18204,
+        "sha256": "f8054480da6a9b256902835bb30990edc568c98de8d121c083b7d00381b16325"
+      },
+      {
+        "path": "src/assets/fonts/rubik-latin-900-normal.woff2",
+        "bytes": 17820,
+        "sha256": "9ab80489aea97335ef86ea6d7386e5ffbf57a2abeeaea8da6f84c694c87792ad"
+      },
+      {
+        "path": "src/assets/fonts/saira-condensed-latin-600-normal.woff2",
+        "bytes": 17980,
+        "sha256": "d20f5b8d2d6a1a236cf776fa3ac0bec671503824cbed5dedf656b61930dc87ee"
+      },
+      {
+        "path": "src/assets/fonts/saira-condensed-latin-700-normal.woff2",
+        "bytes": 17808,
+        "sha256": "eb1cf59a1f785a890ac30d69bb59fffef3989fef4e7a2ae2367c85e861077fda"
+      },
+      {
+        "path": "src/assets/fonts/saira-condensed-latin-800-normal.woff2",
+        "bytes": 17984,
+        "sha256": "5afa98eefcd54d5e7c4d9e5dc5a01a8ae61dc6ad91e2bbc0aaed82525063ae91"
+      },
+      {
+        "path": "src/assets/icon-180.png",
+        "bytes": 8449,
+        "sha256": "3936b6cf83f3063d55a2da9731695472269e761de2700d6d02987c8cb40e1d96"
+      },
+      {
+        "path": "src/assets/icon-512.png",
+        "bytes": 74742,
+        "sha256": "e979f3690e2c7e5abc971e9c3e7dd3f02c3e077af2c5738ebd5d0599eb93ad3d"
+      },
+      {
+        "path": "src/assets/icon.svg",
+        "bytes": 1019,
+        "sha256": "905148c276aad1ff6e874f493eeb971fed2423e24f339a86891d0ca4ac07133e"
+      },
+      {
+        "path": "src/assets/mole-logo.png",
+        "bytes": 27454,
+        "sha256": "80fd77c4d6493cc0b32cc9dd732f3cb54cb180a28dbe9307bf597e4ea535433b"
+      },
+      {
+        "path": "src/assets/mole-m.png",
+        "bytes": 7233,
+        "sha256": "5aa4223784fddac77fd5a503c48b4362c8e972849f8cea4adf597f562fca9292"
+      },
+      {
+        "path": "src/assets/mole-wordmark.png",
+        "bytes": 24650,
+        "sha256": "ad61ed11a81715075f144512232007c288144e4990604cbd4e834f7fae5e3736"
+      },
+      {
+        "path": "src/assets/posters/app-body.jpg",
+        "bytes": 49101,
+        "sha256": "b696c45646ad71a46f8861593b957500cce0176ed7e656e5ddbb7a921e2b3b16"
+      },
+      {
+        "path": "src/assets/posters/app-train.jpg",
+        "bytes": 46731,
+        "sha256": "2dc69a14a3e5445b9cffc62c255d71b5df7c0dc76482009db98d545ef5aa4c48"
+      },
+      {
+        "path": "src/assets/spook/visitor.bin",
+        "bytes": 175095,
+        "sha256": "6bc46e53dcc369c59afdb717729a53eef77840c2f926b07f631d5ba7758194ea"
+      },
+      {
+        "path": "src/build-web.sh",
+        "bytes": 774,
+        "sha256": "617057739d8fdc043d7d05d70ea407bdfbbf9156b8fbc75b1b0f5e621139e725"
+      },
+      {
+        "path": "src/css/accessibility.css",
+        "bytes": 5992,
+        "sha256": "dbdd94ca83c3e7bc33ac76625568b728abe3ad653f53976041f46024aab03ab4"
+      },
+      {
+        "path": "src/css/alley-secrets.css",
+        "bytes": 919,
+        "sha256": "bee3f622b7b37ac38aaac2bd0591f5fc5db89504a552801eaa0d2e00a9924e59"
+      },
+      {
+        "path": "src/css/business-tutorial.css",
+        "bytes": 1159,
+        "sha256": "0590d536e994ebca8024701449952df2f61fd3abb9ebdcbdb7d4af2f0bff9d82"
+      },
+      {
+        "path": "src/css/casino-play.css",
+        "bytes": 41140,
+        "sha256": "ec75a00d016331833c5c183805c18013003e4384965b4a6535f6ff264da86873"
+      },
+      {
+        "path": "src/css/casino.css",
+        "bytes": 16549,
+        "sha256": "5890acf85e9cf96d79812d71b0357419cb9200b488f36f2ff7e0b506c399fc3e"
+      },
+      {
+        "path": "src/css/collector.css",
+        "bytes": 3634,
+        "sha256": "c216e0757be615a6daf4fad140c258d8d38b8755b72b9a68458d6afe670b8bf7"
+      },
+      {
+        "path": "src/css/coop.css",
+        "bytes": 26461,
+        "sha256": "7d5deb0f1fb0f556273687f5daa9dd1c61460f2aad34f6f858bb46b52988bf89"
+      },
+      {
+        "path": "src/css/cursed.css",
+        "bytes": 9663,
+        "sha256": "8eb16c2d82ab53805dbaf412ac4f8e1d48d241054097a1485dc29944fb033e4c"
+      },
+      {
+        "path": "src/css/dares.css",
+        "bytes": 3188,
+        "sha256": "b308a692752bc59cc3ff5d7a5b3f925e296fc34d1aded78e9737847430adb30a"
+      },
+      {
+        "path": "src/css/darts.css",
+        "bytes": 3455,
+        "sha256": "c4a81787906e110727f6a42f527018d849cf07ab8ccc6b8e80d1523640f31ac0"
+      },
+      {
+        "path": "src/css/distillery.css",
+        "bytes": 8382,
+        "sha256": "4640ff9982679bf424b4bad2eea13f18b0f01ede361bb86cea4f5fb39d148d95"
+      },
+      {
+        "path": "src/css/gym-operations.css",
+        "bytes": 2137,
+        "sha256": "ac7f3d09f3578903770fbf81d54a96d94e45b47cdff9636b177a3bf974d13214"
+      },
+      {
+        "path": "src/css/gym.css",
+        "bytes": 11360,
+        "sha256": "889d05e5fc435622b54b2f748a5ce7e6f093464f81cad0f92359d7e450095944"
+      },
+      {
+        "path": "src/css/hud-variants.css",
+        "bytes": 19583,
+        "sha256": "66ff8e0ac6e1e30124c7a15eb0cda16ec446ddcd420cca55afc72d6fb0d7eda7"
+      },
+      {
+        "path": "src/css/mod-menu.css",
+        "bytes": 4650,
+        "sha256": "2ca1ae194b2dc87753fc8c94a41f8c3d8d7c1808ebd8ed34315fb717e147f908"
+      },
+      {
+        "path": "src/css/neighborhood.css",
+        "bytes": 3002,
+        "sha256": "e701dea2a223f2002c709801a0a359c2fd773ea40fac0386de63814140549eec"
+      },
+      {
+        "path": "src/css/phone.css",
+        "bytes": 39795,
+        "sha256": "da5505a55ea12de53ae9f8535e4bc993825741d0d00e8b956d37247732115fb3"
+      },
+      {
+        "path": "src/css/photo.css",
+        "bytes": 3784,
+        "sha256": "6a723fe20d8ebc43ef0532d5ac390c90c6d2036010fdc9113c97418cc8a45f0c"
+      },
+      {
+        "path": "src/css/police.css",
+        "bytes": 4058,
+        "sha256": "c229a0d13655648e908935990f9b79738ca7f0c2af21ba37dcad6e9f2a5b540e"
+      },
+      {
+        "path": "src/css/quirks.css",
+        "bytes": 6853,
+        "sha256": "30c0399df8425a297092ce0490365a49d3db64f8664bc58af1e5f4ce170737e8"
+      },
+      {
+        "path": "src/css/style.css",
+        "bytes": 157581,
+        "sha256": "ab87513deb5ba7ee26690ad9209e855c38f33c1497ff479f6251b65c38dbb13e"
+      },
+      {
+        "path": "src/css/theme-classic.css",
+        "bytes": 12137,
+        "sha256": "0e9c888c6fc2f52ecff3b5be6647bba36c5e0d01a3c617d01d73e9525129c953"
+      },
+      {
+        "path": "src/css/theme-lila.css",
+        "bytes": 28061,
+        "sha256": "a349c2ac51ff671c55076f33a61fde487e0c5408bd4650d7b83ec1c51191b7ab"
+      },
+      {
+        "path": "src/css/title.css",
+        "bytes": 33062,
+        "sha256": "d89c812aa3596e05cb06c4c8cf5f9105af242e07b08515c4c4483f832f618ad7"
+      },
+      {
+        "path": "src/css/town.css",
+        "bytes": 5063,
+        "sha256": "0fa3f7cd908b19ce785618fa21bb99afd1ba7fb4d9d794a201075e6575cd579b"
+      },
+      {
+        "path": "src/download/img/casino.jpg",
+        "bytes": 163152,
+        "sha256": "ea2d7e378c64380a4f2f127b19e4c5af7ebed38ae0dd2316bced435338f71e30"
+      },
+      {
+        "path": "src/download/img/hero.jpg",
+        "bytes": 196302,
+        "sha256": "f9afcb3bd502df7c67a64af6af53a822d9a5aab82d6963ede793773a9828a552"
+      },
+      {
+        "path": "src/download/img/koop.jpg",
+        "bytes": 167674,
+        "sha256": "8d5827709aaf1f3653a4c811aa45c1b8ca34146d8630e4c580024320a5e2c516"
+      },
+      {
+        "path": "src/download/img/strasse.jpg",
+        "bytes": 158289,
+        "sha256": "b674c24b4170fa3b9ddc11878844be378615f2f05ace2218c60de041ad60663e"
+      },
+      {
+        "path": "src/download/index.html",
+        "bytes": 40278,
+        "sha256": "cee754b2ad401e92633f72fd72ba5d33d18b52a60057ce521a512467e722cb74"
+      },
+      {
+        "path": "src/index.html",
+        "bytes": 7483,
+        "sha256": "499471db06284878295e65873c3c5dee2cd4dd1b271068568453557f18ef78a6"
+      },
+      {
+        "path": "src/js/accessibility.js",
+        "bytes": 4793,
+        "sha256": "0f04c2238f02b4cb555d7c6dbdcab6be2e965070daf9ae733074ce4013b7c925"
+      },
+      {
+        "path": "src/js/alley-secrets-state.js",
+        "bytes": 1215,
+        "sha256": "70f01faf819897f97ff5fe878898daa0b5decbc94e53b5d4776b40068bfad3d8"
+      },
+      {
+        "path": "src/js/alley-secrets.js",
+        "bytes": 14256,
+        "sha256": "d0744c2022dac383029fa60dc96b7c2d9c86f9bace5bf8fd39891b429c6d8e27"
+      },
+      {
+        "path": "src/js/auction.js",
+        "bytes": 41830,
+        "sha256": "8d8d05aceff5f3fdd7a3068e4750e1c500904ebe5d6d5dc11232b43a1c03c440"
+      },
+      {
+        "path": "src/js/audio.js",
+        "bytes": 64175,
+        "sha256": "b82e345d2f2d97afbaeaf3826f59b5a4f2429f13114fe899e088d2394e7016bb"
+      },
+      {
+        "path": "src/js/backroom.js",
+        "bytes": 109168,
+        "sha256": "903c84fafa456e5b41e3857eed484caa7b51d4093fbd5e0f1a933a1a31ea1a42"
+      },
+      {
+        "path": "src/js/biz-demo.js",
+        "bytes": 3649,
+        "sha256": "d48eefb30d186763e00b731c0080e7457bcf0251ced5432048293ff8e0955550"
+      },
+      {
+        "path": "src/js/biz-ops.js",
+        "bytes": 5407,
+        "sha256": "14e19858090c5b7d9542e1d93c72bf1133e404ba409a59cb1747f9cbf3243c5d"
+      },
+      {
+        "path": "src/js/bizui.js",
+        "bytes": 56153,
+        "sha256": "a78f536284e4584f35df8f89440106916713e1040cf99857d4ba7ee04f00c876"
+      },
+      {
+        "path": "src/js/boxpack.js",
+        "bytes": 5419,
+        "sha256": "dab64cb22a94333e814ec1d93474efe3563c4ca7834af32383be0b5850942d31"
+      },
+      {
+        "path": "src/js/bug-report.js",
+        "bytes": 11051,
+        "sha256": "9e0c631d85ab05c08b14f59cbd3cb5b6efa412347f19e7f59ffdeb9e9aa2aa15"
+      },
+      {
+        "path": "src/js/bus-shelter-layout.js",
+        "bytes": 310,
+        "sha256": "774f52dc5246507a149e3b3fb64702ff699af78a2bb6e1cef8a867fda6be4e9f"
+      },
+      {
+        "path": "src/js/business-day.js",
+        "bytes": 2736,
+        "sha256": "91069816d5b7c65b79b727f89d914c9e5d46ac5e382b1bd44bd6f1590091521c"
+      },
+      {
+        "path": "src/js/business-forecast.js",
+        "bytes": 580,
+        "sha256": "836902a844cf29fc655b20523ce8f6de67bc9cfc70705e8d2cc7d554cf8bcae8"
+      },
+      {
+        "path": "src/js/business-guide.js",
+        "bytes": 4050,
+        "sha256": "5a94aa0641ae1a6cc6cb975e861740afbb40dd33c8b09f9ba63983309dfbdb22"
+      },
+      {
+        "path": "src/js/business-name-ui.js",
+        "bytes": 3779,
+        "sha256": "a9b7e26e3b768901fe3cd2205385904321699c910905de64a6ba311502291bdd"
+      },
+      {
+        "path": "src/js/business-name.js",
+        "bytes": 4535,
+        "sha256": "35d81fc86228c0fe6e104b8bc826262a6ac1288b1fc72386d8db1893f88e1f94"
+      },
+      {
+        "path": "src/js/business-outlook.js",
+        "bytes": 2094,
+        "sha256": "479600d0e2fb48b94388182bf9939227de43885f0d7874d4fc81bc65b4705685"
+      },
+      {
+        "path": "src/js/business-progress.js",
+        "bytes": 13818,
+        "sha256": "4bab49920020757274609901b82d3141ac358084ef99e2883b7bb213c41be958"
+      },
+      {
+        "path": "src/js/business-signs.js",
+        "bytes": 1022,
+        "sha256": "522e84d284e3091b4064b6e719e65960434bf4a7698ac03f419a67184b13d52a"
+      },
+      {
+        "path": "src/js/business-terminal-access.js",
+        "bytes": 5982,
+        "sha256": "7278af2ce255b81af7a1c1bc298a3a4530859f33bc30e7279c1d415af25334b3"
+      },
+      {
+        "path": "src/js/business-terminal-controls.js",
+        "bytes": 4151,
+        "sha256": "87d6775e31232f67baba715722d8c8f64ba4da9c3e5255c8c026c37d746e6742"
+      },
+      {
+        "path": "src/js/business-tutorial-state.js",
+        "bytes": 37106,
+        "sha256": "f7d04a938f7741ac39cb0ae91bf9c7b3e814195b6b0c9b1c149581530e74447b"
+      },
+      {
+        "path": "src/js/business-tutorial.js",
+        "bytes": 16955,
+        "sha256": "9bab5fecd13d17b1028898dbec46f02d7900732d310256256b64dee9dc333d3c"
+      },
+      {
+        "path": "src/js/business.js",
+        "bytes": 76638,
+        "sha256": "3600d38aa6e976584898443b5a0e9a4bd3a64df6a5fc1df535443b3b1ce13dd8"
+      },
+      {
+        "path": "src/js/buyer-haggle-model.js",
+        "bytes": 7653,
+        "sha256": "8b311a608c54b6a08b1ecb8fc6fc6f08ab77cc21b700b662cd95fc0ed47c9dc4"
+      },
+      {
+        "path": "src/js/buyer-haggle.js",
+        "bytes": 15618,
+        "sha256": "8bd9b3df69a2722236880d9fb90e4263ab9991f21fbb51d31a00c65d15e20868"
+      },
+      {
+        "path": "src/js/canvas-release.js",
+        "bytes": 6072,
+        "sha256": "34088ef1a8410cdfe73421d7ed922277d10d055680509590d3719d890e3e8d97"
+      },
+      {
+        "path": "src/js/career-label.js",
+        "bytes": 2602,
+        "sha256": "146444ae146b61d156d80ea02de5931e784118c08c68835025ef28c27609032e"
+      },
+      {
+        "path": "src/js/career-opportunities.js",
+        "bytes": 548,
+        "sha256": "556f14d11dc4efd4c126c412527aefe11c2ed0ba43b8d3d3656dfd6653ee59ce"
+      },
+      {
+        "path": "src/js/career.js",
+        "bytes": 7657,
+        "sha256": "7efd1b54f211e08a86544080fd9da9a3aa92fc0c5e52046529c6cc5fd7d357d1"
+      },
+      {
+        "path": "src/js/carfx.js",
+        "bytes": 4714,
+        "sha256": "c1489cf9b0b97c1cc013fb6631646b5bb8361fb7364ab63162a6de97d248802a"
+      },
+      {
+        "path": "src/js/cars-models.js",
+        "bytes": 56630,
+        "sha256": "7e291be65d26d54985e94c0d34f9f2338e9fee6cc151f97c31fd01a372662095"
+      },
+      {
+        "path": "src/js/cars.js",
+        "bytes": 32536,
+        "sha256": "37d61d126528134a8cd1a15ac3ac142c19eb00f16a975acea2606b3aa61fce15"
+      },
+      {
+        "path": "src/js/carwash-ambience.js",
+        "bytes": 19661,
+        "sha256": "ef79d1f871ea30395c905a1d9ec34e02974a4ab3f9c499ec8b9be227bb03fc74"
+      },
+      {
+        "path": "src/js/carwash-cars.js",
+        "bytes": 63976,
+        "sha256": "5d31c0f94718a7ee5fd5bd4d84c74daf398c759d35d81e802a621f67da71c6b6"
+      },
+      {
+        "path": "src/js/carwash-hand.js",
+        "bytes": 5653,
+        "sha256": "2db35f8e72c6f24e30a36bd1d07c03707b7ee38c89a5f858082e668327d68e9f"
+      },
+      {
+        "path": "src/js/carwash-lived-in.js",
+        "bytes": 18693,
+        "sha256": "134413c82ca647ba7d2a97a716237c5d3271568a77cfd0af50d7e9bad7c45beb"
+      },
+      {
+        "path": "src/js/carwash-model.js",
+        "bytes": 73281,
+        "sha256": "c2b0190d42559c95409133452337b54d677d0a3039ed76327c1916a07bba21f5"
+      },
+      {
+        "path": "src/js/carwash-public-shop.js",
+        "bytes": 4392,
+        "sha256": "b80539522672c60fa27ac647a8636349970959fba0ecfdf1c3cf9757ebe01f56"
+      },
+      {
+        "path": "src/js/carwash-room-details.js",
+        "bytes": 33517,
+        "sha256": "685dd1492832de008cf37bf06142ae2304fe42016bdae66e145ecb7d45e13924"
+      },
+      {
+        "path": "src/js/carwash-rush.js",
+        "bytes": 10888,
+        "sha256": "bb71a90f73a583bf305ef1b0d0edbf14591c816454ae276c0dd689ac86fbd5dc"
+      },
+      {
+        "path": "src/js/carwash-site.js",
+        "bytes": 87863,
+        "sha256": "ce954151f93c05e919ad42be82012ab81c400341e06d179f375f1e9b23f954ae"
+      },
+      {
+        "path": "src/js/carwash-staff.js",
+        "bytes": 16770,
+        "sha256": "dea7b1c4a4b1d5b44cb825d905911b29082c20c5ef6769e4139bda31240c8630"
+      },
+      {
+        "path": "src/js/carwash-teaser.js",
+        "bytes": 3431,
+        "sha256": "8ff8e83fe6b15045219dc429f5c4fd836b7475e52b44bbe0cd9339e7eb790292"
+      },
+      {
+        "path": "src/js/carwash-tunnel.js",
+        "bytes": 27190,
+        "sha256": "51e63aba580b9d9241ad5d45602a27ca6ca5d01167767fad78db27c306eb10ad"
+      },
+      {
+        "path": "src/js/carwash-ui.js",
+        "bytes": 50495,
+        "sha256": "d967584206c800ee0735928b4615d28c67911ad1fb16bbf80d454d51e4da5b13"
+      },
+      {
+        "path": "src/js/carwash-wash.js",
+        "bytes": 25258,
+        "sha256": "a3af6e6f493f0bf90b61e93785c2e297eb36abee81d2bc56bf221bf38e855f88"
+      },
+      {
+        "path": "src/js/carwash.js",
+        "bytes": 66552,
+        "sha256": "cd46a40b90bf9280542a5107de4cc15c86475fab4e607a563eb9210a33d97e79"
+      },
+      {
+        "path": "src/js/casino-ambience.js",
+        "bytes": 22421,
+        "sha256": "3b5c4d47e737a7a59ddad4be50ed5a4703cca886f967f8dff18f5d750dc51101"
+      },
+      {
+        "path": "src/js/casino-art.js",
+        "bytes": 55115,
+        "sha256": "51db95661556c6a28f5e97e6e92fe04397d334270f2ac5c427ba9cc8254a629c"
+      },
+      {
+        "path": "src/js/casino-build.js",
+        "bytes": 126632,
+        "sha256": "62c115f37cf268b959c6b4af2c4dffdb60260d5c114472eed56679bc73593c3f"
+      },
+      {
+        "path": "src/js/casino-camera-model.js",
+        "bytes": 1436,
+        "sha256": "1dfbbcf97a48e29a8dbfc2d3031e9e2bb5f9caad998ab059e6d48687be37f960"
+      },
+      {
+        "path": "src/js/casino-cctv.js",
+        "bytes": 23494,
+        "sha256": "02fb4c3dcbcfa0aa721e083f91bf1246e3c34440baa2b3ea5dfb4b9eb101c7bc"
+      },
+      {
+        "path": "src/js/casino-engine.js",
+        "bytes": 69970,
+        "sha256": "9f262e37a01f6775bed72077f843365fcec0f927db9ff0b84a8cc17df72aec51"
+      },
+      {
+        "path": "src/js/casino-floor.js",
+        "bytes": 33598,
+        "sha256": "4c4d54db15b9f31ff1f03858bc1d9a1b885878995f020568311b49e674f4add1"
+      },
+      {
+        "path": "src/js/casino-holdem.js",
+        "bytes": 4973,
+        "sha256": "e54e254b4656e4c391aba543864115ce2584bdf0839f930faca0074b1a909291"
+      },
+      {
+        "path": "src/js/casino-lived-in.js",
+        "bytes": 8327,
+        "sha256": "865d4191f5e8b68d7bf26fab46fa42e0d9e83061a867387f46771c458abf9812"
+      },
+      {
+        "path": "src/js/casino-lobby-view.js",
+        "bytes": 19001,
+        "sha256": "a75fa1ef75f1c79d92d0fb6748b1c9c6ae69ff5f39d8625acfe4fdc54c57e1ee"
+      },
+      {
+        "path": "src/js/casino-npc.js",
+        "bytes": 4250,
+        "sha256": "4e280c36dc8f1935ec87afb64a320144423f6bbed96d2346c7d12dd4820a51fe"
+      },
+      {
+        "path": "src/js/casino-office.js",
+        "bytes": 69076,
+        "sha256": "ab736a93c706aa0b5a8ef7ea6730173782e368af36916939eb7c519822411812"
+      },
+      {
+        "path": "src/js/casino-pawn.js",
+        "bytes": 5011,
+        "sha256": "e59cc22b9b8a3eab48e5329d3e9c288634be904d22449eeb21f438a0ef8683e7"
+      },
+      {
+        "path": "src/js/casino-play-bj.js",
+        "bytes": 12995,
+        "sha256": "059684d249b4c0f723795c20f4b3bafca984be14b3fdeff74133bc32a9b6c795"
+      },
+      {
+        "path": "src/js/casino-play-core.js",
+        "bytes": 70977,
+        "sha256": "847700615d4b65386b9bff6d5121067cd8ed49b456bbaa5b281968fddff58ab0"
+      },
+      {
+        "path": "src/js/casino-play-hud.js",
+        "bytes": 23366,
+        "sha256": "cb65913b0d01176baf0721bf108eb6b2bcd05c8c7190f089bd7f2632b86fbcac"
+      },
+      {
+        "path": "src/js/casino-play-poker.js",
+        "bytes": 21672,
+        "sha256": "d86d7096e0cf02f016922419d2b21e435063153988e9d1b7d48659daf7a16b2a"
+      },
+      {
+        "path": "src/js/casino-play-rl.js",
+        "bytes": 3870,
+        "sha256": "c8612b4e3d8a3eb02ca84e92f57f16a498c6f16fa7f9e2cda9889b7c185fef70"
+      },
+      {
+        "path": "src/js/casino-play-slot.js",
+        "bytes": 6725,
+        "sha256": "e91260055f8c9dfba575f214860b66e1023d75a6d8232b5c77700e75d7087c9b"
+      },
+      {
+        "path": "src/js/casino-play-text.js",
+        "bytes": 27295,
+        "sha256": "84428a4c09576488b0f2acf3a0f27ec7387e328a6a4f4b15d9fc83770ec16d4c"
+      },
+      {
+        "path": "src/js/casino-play-view.js",
+        "bytes": 43967,
+        "sha256": "3f2413de251a3d75945a97c4268fa8585f8f6bd14a9ef5d5d3f78eee9b941c05"
+      },
+      {
+        "path": "src/js/casino-play.js",
+        "bytes": 97088,
+        "sha256": "783adeaef871b8437d5a2a18de8bdd7e14c342c13e48907a6616221e1af14ef6"
+      },
+      {
+        "path": "src/js/casino-rules.js",
+        "bytes": 17272,
+        "sha256": "e881601ca9979360ad2080eb1d700a804bf4e67bddce00701f3195e44290a4b6"
+      },
+      {
+        "path": "src/js/casino-tourney-ui.js",
+        "bytes": 18154,
+        "sha256": "d78ac40b09a4a6132da1d4b758a3722698904bd113ca18237412b24fe805b0b8"
+      },
+      {
+        "path": "src/js/casino-tourney-view.js",
+        "bytes": 10166,
+        "sha256": "699d2830f24df8e6757820345a4ddb0941aff378d62df26250d744d76dfd6115"
+      },
+      {
+        "path": "src/js/casino-tourney.js",
+        "bytes": 38284,
+        "sha256": "2f253826208c9bf0d11fff5457e64e062474d5e54f0fe91c42f47d030a9656d5"
+      },
+      {
+        "path": "src/js/casino-uplight.js",
+        "bytes": 759,
+        "sha256": "0ee33d1a25d20f2b20cb84a72454917fc00ab87f6559e8f1a5e1b7e391f98ce9"
+      },
+      {
+        "path": "src/js/casino.js",
+        "bytes": 57554,
+        "sha256": "b451549f2ea1b3ecda1719583fba191389b53cfb984f334386ae3f1e6f0ff18f"
+      },
+      {
+        "path": "src/js/ceiling-layout.js",
+        "bytes": 418,
+        "sha256": "98d1cc09d1cef232bc1d5e6c7a698cca8a7fcada95142aa068eb2eae7bb94d6b"
+      },
+      {
+        "path": "src/js/character-motion-data.js",
+        "bytes": 174106,
+        "sha256": "c62dc4020206c95d4a9284a2903fb169926344865883cad84f553d4802c49a70"
+      },
+      {
+        "path": "src/js/character-motion.js",
+        "bytes": 3043,
+        "sha256": "7178a6d8ccbcee0ea3de2cb44f844a3603b122f4d4afafb37610cdf08d65e25b"
+      },
+      {
+        "path": "src/js/cheats.js",
+        "bytes": 4677,
+        "sha256": "699a830123856046035f0aee33e3e6f21664ce13c8d6fcf4524b72267d01bce0"
+      },
+      {
+        "path": "src/js/city-routines.js",
+        "bytes": 3169,
+        "sha256": "be34356e691a2afc4d5c74848fca7fc65904ac8c143d71c6de01070cd9b3ea58"
+      },
+      {
+        "path": "src/js/collector-content.js",
+        "bytes": 17511,
+        "sha256": "8be4f9c3af26c4569e589eb794316c998735b2cc194c4ee3f86d1ab321f2da63"
+      },
+      {
+        "path": "src/js/collector-state.js",
+        "bytes": 13583,
+        "sha256": "7d03fa747d5313517499d09365c64b0a3bf662d7fe11fce203cf4a4439b37dd7"
+      },
+      {
+        "path": "src/js/collector.js",
+        "bytes": 41927,
+        "sha256": "0b2ef1f932ade9fbe091d5886ed6542908de800165501484d50ddea604de0c2d"
+      },
+      {
+        "path": "src/js/collision-shapes.js",
+        "bytes": 3901,
+        "sha256": "bbf7a841c3483a9afadc5575cc9b591cfd4560291fadb44be2bf55c58333d652"
+      },
+      {
+        "path": "src/js/core.js",
+        "bytes": 18832,
+        "sha256": "d4474f0e076b4d2ee0d78af70627c79b4fdf1e30137ec64a434663090b031810"
+      },
+      {
+        "path": "src/js/counter-why.js",
+        "bytes": 3507,
+        "sha256": "338382ed9325f0c8ef6c9e7e2c22dad66a9437e39c88f40ccb743440c20742ef"
+      },
+      {
+        "path": "src/js/counter.js",
+        "bytes": 38021,
+        "sha256": "ae78a1ebe09205483d02ec0ca66733eb7033181d0c7d960176aeda4dcd2c04e4"
+      },
+      {
+        "path": "src/js/cursed-core.js",
+        "bytes": 20104,
+        "sha256": "d8ac3c2340d2ffaad7791e0e414054878b415e2f7c39302ea17fa55da3e98d73"
+      },
+      {
+        "path": "src/js/cursed-models.js",
+        "bytes": 14636,
+        "sha256": "d54364db532a043b464c8b60e5d162c8fa178e55ae3147285d371306ba618798"
+      },
+      {
+        "path": "src/js/cursed-text.js",
+        "bytes": 42660,
+        "sha256": "bce82804dc91db28c7535c0ecc4b9ba16660272dd6388699e69d5e03e3f4938b"
+      },
+      {
+        "path": "src/js/cursed.js",
+        "bytes": 94170,
+        "sha256": "44b9af35b76a0483a458f411765798a91bbacfdd2017b72dd1626566bb5a0626"
+      },
+      {
+        "path": "src/js/customer-aim.js",
+        "bytes": 2390,
+        "sha256": "0ead748f12cfc6989ea9f5dd3a6762a3a1fe574651b62548aaae22643620b726"
+      },
+      {
+        "path": "src/js/dares-state.js",
+        "bytes": 18029,
+        "sha256": "dbdc0295dfd2a397cf44dbfe5e1007beaddda05fd2b7ca5580d6e3d941c262bf"
+      },
+      {
+        "path": "src/js/dares.js",
+        "bytes": 17143,
+        "sha256": "fcd853d1009a8d007587080c505d750528323e87cb15663b8eea2ee72d5298a8"
+      },
+      {
+        "path": "src/js/darts.js",
+        "bytes": 13926,
+        "sha256": "f764d80c77a7bcc2240711c104c5505ed298a6a46f9b5e199c1ef48781f29cff"
+      },
+      {
+        "path": "src/js/deal.js",
+        "bytes": 49187,
+        "sha256": "5d5900a50d02441eae707b27be8843896c2c270a33b2491bea5e94a95232047f"
+      },
+      {
+        "path": "src/js/decorart.js",
+        "bytes": 35418,
+        "sha256": "5186f959722b9745da37ece6b7195e32eeb7268fc64890183df106758ba31540"
+      },
+      {
+        "path": "src/js/devkit.js",
+        "bytes": 1535,
+        "sha256": "d981e8b85bd7ac9041c18e620045ad432727d55e7afb16b971b3a9ce0dcc7b59"
+      },
+      {
+        "path": "src/js/distillery-atmosphere.js",
+        "bytes": 12392,
+        "sha256": "2ce542eff3458f7216f7f0d26a35ab9179bf6198ce435fc7494e213c57863b1d"
+      },
+      {
+        "path": "src/js/distillery-business.js",
+        "bytes": 10209,
+        "sha256": "5441e0698d658812223680b9dc827f4f6116dd91c4a730b6ea10825428ea67fc"
+      },
+      {
+        "path": "src/js/distillery-content.js",
+        "bytes": 12650,
+        "sha256": "1e1c27ff27178a807da9b12a91bbc6aaeb43a16a3c325016749898aace3cdf02"
+      },
+      {
+        "path": "src/js/distillery-crew.js",
+        "bytes": 18472,
+        "sha256": "6b45e2069354e17d661c54527a17427972d3c1ad061cb2e9b61db38470cf88c5"
+      },
+      {
+        "path": "src/js/distillery-dressing.js",
+        "bytes": 11498,
+        "sha256": "6effab932940d087d2f49b5f9ea3be6240c234b63e5d4f73d2dd6c805d1f8a54"
+      },
+      {
+        "path": "src/js/distillery-layout.js",
+        "bytes": 4279,
+        "sha256": "408b39b66a9eb93dbd524e551b439e066b4a2395c615adeee37d3a1e2f7f2829"
+      },
+      {
+        "path": "src/js/distillery-life-dressing.js",
+        "bytes": 6631,
+        "sha256": "55c0588bd1ae889ad61ffd142236f6041e0665d76b764c720be4385f10858222"
+      },
+      {
+        "path": "src/js/distillery-life-model.js",
+        "bytes": 24318,
+        "sha256": "cf1e72dc15545974ed47651b9a2210f399ed3150cbfcda20f774faf35a845a29"
+      },
+      {
+        "path": "src/js/distillery-life.js",
+        "bytes": 34358,
+        "sha256": "dbce739f87a31cdaeb2595846a82b4cb056618a806e9ace0d4ffc212859f27de"
+      },
+      {
+        "path": "src/js/distillery-model.js",
+        "bytes": 50789,
+        "sha256": "164393f11467bbfbd8a209051c05a8a82a06740bdb32e9177cb5896ad2927619"
+      },
+      {
+        "path": "src/js/distillery-site.js",
+        "bytes": 38174,
+        "sha256": "8b8f7ac610d48244af003342b1c248e9654a1c398ab837bcb37ead88fcc59257"
+      },
+      {
+        "path": "src/js/distillery-ui.js",
+        "bytes": 53554,
+        "sha256": "0b54fba5c4135e0ab3fb455623446426fc225ceb5b780cc729594865c9b131cf"
+      },
+      {
+        "path": "src/js/distillery.js",
+        "bytes": 23638,
+        "sha256": "7920fc7da354e583036643cceb6c472a49136caa554934f19122c5e1e2f20833"
+      },
+      {
+        "path": "src/js/district-furnish-archive.js",
+        "bytes": 23607,
+        "sha256": "6c98c7d97573c57e595edc17cb99ec31bab52589dd79a7162693c573a8d1c764"
+      },
+      {
+        "path": "src/js/district-furnish-common-ws.js",
+        "bytes": 3187,
+        "sha256": "96e18bfa3bd3dd99c78a707b1d6f259787335cddf2a1da511a5da0bfdf28d475"
+      },
+      {
+        "path": "src/js/district-furnish-kiosk.js",
+        "bytes": 14400,
+        "sha256": "928fa55f4b352c6fb34412eaa723bef1d4a0acde33949acf1822febc7a327dcf"
+      },
+      {
+        "path": "src/js/district-furnish-kit.js",
+        "bytes": 6119,
+        "sha256": "7b8045973527a3ecaeb723ddb567f30c37ea08fda5bacd3d1a90833df2d7edca"
+      },
+      {
+        "path": "src/js/district-furnish-station.js",
+        "bytes": 33117,
+        "sha256": "0d02e7573c7189192d31f7eb4c9929b4947a283e9d182654f32f48748acf18dc"
+      },
+      {
+        "path": "src/js/district-furnish-workshop.js",
+        "bytes": 37869,
+        "sha256": "f70f2967758b41127072baa73535832d91c2acb0680abd100f77fd064cb8d419"
+      },
+      {
+        "path": "src/js/district-furnish.js",
+        "bytes": 898,
+        "sha256": "5526d6a4251d291e10c9ebdb2162fe2bd4ce0c5681e891a7f84d9d2afc18c356"
+      },
+      {
+        "path": "src/js/district-layout.js",
+        "bytes": 4421,
+        "sha256": "ae852ebeaaa50aeef3b3aaea61e92d5600c1059332b53fc29c6ae6ec02dcf7c2"
+      },
+      {
+        "path": "src/js/district-life.js",
+        "bytes": 12973,
+        "sha256": "cddc5b29ef689526b0b92f414c824af76bf63fcbb5789c2824045023f77fbc83"
+      },
+      {
+        "path": "src/js/district-residents.js",
+        "bytes": 4642,
+        "sha256": "7ce22dd73125cb55de63bb1c623090006bb7453b9bf79c8e79ad1dd8bd6e3e85"
+      },
+      {
+        "path": "src/js/district-routines.js",
+        "bytes": 9136,
+        "sha256": "df039ac4284c044ca600af729a57494c68f07f1272f81e8c3604e48f722ae6f2"
+      },
+      {
+        "path": "src/js/district-scenery.js",
+        "bytes": 18010,
+        "sha256": "7b6baf1d930a0a0d1a1c2bcb8adcfa65171e9a6b74a84705bbadd88bf22526c3"
+      },
+      {
+        "path": "src/js/district.js",
+        "bytes": 56840,
+        "sha256": "e57888c929701ae84bce8b4a396ccee53fac5af21a0765fd312e586994bfc39e"
+      },
+      {
+        "path": "src/js/door-openers.js",
+        "bytes": 2676,
+        "sha256": "4a7406716dda5ac384c6de65f173f23b8fb2fe40922379f33c0d2ea6104e08f1"
+      },
+      {
+        "path": "src/js/dynamic-resolution.js",
+        "bytes": 3150,
+        "sha256": "dfb803acef484838a65f83f53cd2af227518482fcb01a29e54353a2d630c5028"
+      },
+      {
+        "path": "src/js/eggs.js",
+        "bytes": 22712,
+        "sha256": "6a06bcedbd507e7a1ed924fb28f343675a571100d6a24959f6dafe8293a42413"
+      },
+      {
+        "path": "src/js/environment-map.js",
+        "bytes": 564,
+        "sha256": "6c89f2255efc5f1572fc971def4adc5492e9c6762f7a31f04731ca03bd3e427b"
+      },
+      {
+        "path": "src/js/facade-layout.js",
+        "bytes": 2199,
+        "sha256": "934f894122483aa316943dc216a69bc48024574e73f4baa4e213815a81ae3b55"
+      },
+      {
+        "path": "src/js/features.js",
+        "bytes": 36149,
+        "sha256": "f2900a3598185a214b5f41bf7dc65de18dd5d863b7b1642a86c486d85a8cac6c"
+      },
+      {
+        "path": "src/js/figure-parts.js",
+        "bytes": 7230,
+        "sha256": "9c7ce1b2aec173911b819e927d71deeb28a763995d297a0c6e644024d69816f4"
+      },
+      {
+        "path": "src/js/flea-market-state.js",
+        "bytes": 18013,
+        "sha256": "67552f2ca7ba31528d226d3a188b87a287fc042f3377d4a8c71aa2ce5e0ff503"
+      },
+      {
+        "path": "src/js/flea-market.js",
+        "bytes": 42030,
+        "sha256": "8fc40da18ccf723b86e902f7639743defe31667f2400d2ca25f02b82b6832ef2"
+      },
+      {
+        "path": "src/js/fountain.js",
+        "bytes": 18577,
+        "sha256": "bdacca6f516f339f79111553a910ea0b265685123804aa362e37376bca7b5f3c"
+      },
+      {
+        "path": "src/js/frame-limit.js",
+        "bytes": 3130,
+        "sha256": "c88278eb3d42387a16e54856a0146ccc44284ec267bfca452cda4209c96021ac"
+      },
+      {
+        "path": "src/js/furniture-dialog.js",
+        "bytes": 4984,
+        "sha256": "73486b91f92406eb8b02cc51aaa5780c045be027fb9a8715148f8db51c52736b"
+      },
+      {
+        "path": "src/js/furniture-rules.js",
+        "bytes": 2966,
+        "sha256": "87634f6e5befac276ec0ee3a95b21d11fdeb179d700ed69c343f1c942812587d"
+      },
+      {
+        "path": "src/js/furniture.js",
+        "bytes": 19082,
+        "sha256": "80360812cd084fd8a9bdbe9b0e4486ce9ff0bf22dd5a9f21cb40586ca2a6de12"
+      },
+      {
+        "path": "src/js/game.js",
+        "bytes": 105845,
+        "sha256": "ffdf4434127b909609f0fa4ed45b76aacf565553ad010135ad9a886de3049403"
+      },
+      {
+        "path": "src/js/gamepad.js",
+        "bytes": 32162,
+        "sha256": "3d2ca595a862a8258cc047f3259eb99eb14f89a792914d36297ba205add62b5e"
+      },
+      {
+        "path": "src/js/gold.js",
+        "bytes": 61184,
+        "sha256": "8d9db28949ef94f72031754a66622fc217956dad1f7a99ddd99008435f286b90"
+      },
+      {
+        "path": "src/js/gpu-idle.js",
+        "bytes": 1543,
+        "sha256": "7af3ecef1a54745b50eb94ad7be2b1f8ddbba82b8c91202e6195590b2c67569d"
+      },
+      {
+        "path": "src/js/gpu-preset.js",
+        "bytes": 6473,
+        "sha256": "685eccc45a929b5d53ffb20862ae78abf901e76fe7a923a69f7f429379e914fb"
+      },
+      {
+        "path": "src/js/gym-ambience.js",
+        "bytes": 17021,
+        "sha256": "23c31d5e093704dd3eeeae4d613ba788e04f2ae21eb8a71a4512f47e02ded279"
+      },
+      {
+        "path": "src/js/gym-basement-dressing.js",
+        "bytes": 30105,
+        "sha256": "633e1ba2c42a81db6718e4cf609067e13a44c9b2a4ef7fe6090b7e0d63073cb7"
+      },
+      {
+        "path": "src/js/gym-basement-layout.js",
+        "bytes": 3580,
+        "sha256": "a8b506cdc1f016451bd9c02eaae2df6cd07f48ecc9f6b1001dd62cfedb33acc0"
+      },
+      {
+        "path": "src/js/gym-basement.js",
+        "bytes": 15870,
+        "sha256": "7bf09194c61d16e2df97ea293415c027a8c22b97d890caf337043a02d34691b3"
+      },
+      {
+        "path": "src/js/gym-board-visibility.js",
+        "bytes": 1083,
+        "sha256": "4d3f1c09d8ba2639f1512f13e280860dec1231873eb99a8da20c812464291984"
+      },
+      {
+        "path": "src/js/gym-changing-room.js",
+        "bytes": 9885,
+        "sha256": "15d59b61be06945149ee75f32994603d42744e8f4726e7b23ee287584bf7ac21"
+      },
+      {
+        "path": "src/js/gym-office.js",
+        "bytes": 18452,
+        "sha256": "7bb09cb8a96c68ed11de66ba38d1fde452758177e86b425e6f4d6a9649f73c11"
+      },
+      {
+        "path": "src/js/gym-operations-ui.js",
+        "bytes": 13000,
+        "sha256": "490618526ea46ff19bd2d875cc5e75b2e55c6bd8dbf904d28f7fe6c710e07e78"
+      },
+      {
+        "path": "src/js/gym-operations.js",
+        "bytes": 18117,
+        "sha256": "de9e58eb3788d1cd48492d5a7c0b65e7ab240b8506c6029355be4d78427b9fdc"
+      },
+      {
+        "path": "src/js/gym.js",
+        "bytes": 108105,
+        "sha256": "45a743578099de1c7539a76963459d59e8d3e579d900125de09e12e73ae68aed"
+      },
+      {
+        "path": "src/js/gymapp.js",
+        "bytes": 37835,
+        "sha256": "d3972f8a9b26a5876189df57e518a9e6f13be96e5f3251ca927af95a462ea9b4"
+      },
+      {
+        "path": "src/js/gymbiz.js",
+        "bytes": 39999,
+        "sha256": "328322e7092cc6150238178893edadabf4d950e3cab1856de558bb9f91b3b6b8"
+      },
+      {
+        "path": "src/js/gymkit.js",
+        "bytes": 20952,
+        "sha256": "04d8eab34be21e0367e1ca0ef2a4eab0b626112e3483cafcb1b4100147f0974b"
+      },
+      {
+        "path": "src/js/gymsim.js",
+        "bytes": 38084,
+        "sha256": "38fccdb0ce17a753e4e2218343c576264877ae397d603e668fe76990d203ee7e"
+      },
+      {
+        "path": "src/js/gymtrain.js",
+        "bytes": 44096,
+        "sha256": "1a29d669f1217243024742eaab8dfdd8c24d78ab19900074eab9247ff3cb7832"
+      },
+      {
+        "path": "src/js/gymwing.js",
+        "bytes": 45577,
+        "sha256": "5fbbe6a1426719bc06246536e613e1c33e543803c05582d4714428ecb2947c64"
+      },
+      {
+        "path": "src/js/head-measure.js",
+        "bytes": 8338,
+        "sha256": "8c109337e512b99b04a3661021d6426346128cdfd2e7733c43ad1ff57d6e922f"
+      },
+      {
+        "path": "src/js/hotel-addons.js",
+        "bytes": 20112,
+        "sha256": "7ad233b7a7df21f7aeb58c62e7b3d04192ba2e1b82dbb9b7386a9d9f95a39aa6"
+      },
+      {
+        "path": "src/js/hotel-biz.js",
+        "bytes": 50811,
+        "sha256": "f1250d9aa5879c353d72a8315bdeec0d932df445cd25d32095cabb2ac87a8476"
+      },
+      {
+        "path": "src/js/hotel-guest-ui.js",
+        "bytes": 11342,
+        "sha256": "8c6a08cba3c0c97c1166cc4f51f24625ee6a5cd6518d94e772578f9c7b42f72a"
+      },
+      {
+        "path": "src/js/hotel-interior-layout.js",
+        "bytes": 4409,
+        "sha256": "67c73e9250aea87eab8ea14578144ce56bfa471d50e9f03ed08b77019fcb3cc0"
+      },
+      {
+        "path": "src/js/hotel-interior.js",
+        "bytes": 27673,
+        "sha256": "87cbb9f43dd8a39f75f10e205ed495130c9e5620c7a03998f8ea83986763dbc9"
+      },
+      {
+        "path": "src/js/hotel-layout.js",
+        "bytes": 14047,
+        "sha256": "f2b32b3d3e5358a384d4e57f7377a9414bdd96b6098bc87bc4bb04ba35ba7caf"
+      },
+      {
+        "path": "src/js/hotel-life.js",
+        "bytes": 18774,
+        "sha256": "5710f444049093e7b06fac2ed3509f1b71f728821e7b01766de56a6937414fdc"
+      },
+      {
+        "path": "src/js/hotel-lobby-art.js",
+        "bytes": 40070,
+        "sha256": "1fd74a87ff65b4902dc3e616f735b91065026fd05eaa8cb549119af2862bbb57"
+      },
+      {
+        "path": "src/js/hotel-lobby.js",
+        "bytes": 66573,
+        "sha256": "7b0159f5924d549de2b58ac8b977835e501c682c6a91452cb53e85154c79d878"
+      },
+      {
+        "path": "src/js/hotel-room-art.js",
+        "bytes": 23920,
+        "sha256": "f47246a058f0d838bc447328d7f7861055ce509a667d08267209dc0205cde575"
+      },
+      {
+        "path": "src/js/hotel-rules.js",
+        "bytes": 27144,
+        "sha256": "67de84369ae0c3a1e9413ffa8af583bb3960c4387bd008608e66d2211c590ec9"
+      },
+      {
+        "path": "src/js/hotel-stays.js",
+        "bytes": 30439,
+        "sha256": "32d37659505e12275f8a134da8519d6a8156f9aebef3ae0afe188ff83a6096bf"
+      },
+      {
+        "path": "src/js/hotel-ui.js",
+        "bytes": 37959,
+        "sha256": "841bf37ae8b8bc0b41188d58402cb6cc9c67b049c7ee5ae6035072c2d69b7f30"
+      },
+      {
+        "path": "src/js/hotel.js",
+        "bytes": 64200,
+        "sha256": "12a5a9323d53d265b7d738d667d299cbe60b55a60285914399ca8bc33a32dd9e"
+      },
+      {
+        "path": "src/js/humans.js",
+        "bytes": 171359,
+        "sha256": "87cd351b0bdcaf9498f8705b22c8d14dc53a6953238c175566ab80b1c96e266c"
+      },
+      {
+        "path": "src/js/intakebox.js",
+        "bytes": 11273,
+        "sha256": "a9d25aecc83fb54ff83251e504b741b13cab41d99b2a90d0b062a44fe963e8e1"
+      },
+      {
+        "path": "src/js/interior.js",
+        "bytes": 56007,
+        "sha256": "25f3a09f446c2633b090d1b5c3ad0b9aec85be534eb347916714b2cdb10b2110"
+      },
+      {
+        "path": "src/js/intro-score.js",
+        "bytes": 11192,
+        "sha256": "c04b8590386056e8f2e9e4a7f3c6b49ce1fd3e6a9458b4f2cad3960d7e37a602"
+      },
+      {
+        "path": "src/js/intro-sting.js",
+        "bytes": 3748,
+        "sha256": "3283db4ab2ec06671f4fcb9a04594895453ee5a0333b7e112db9619530e087c9"
+      },
+      {
+        "path": "src/js/intro-timing.js",
+        "bytes": 7558,
+        "sha256": "b89af35c739ed2521dffd64391cb516e8a558be6ee1b420c1e5f2093241c5ea0"
+      },
+      {
+        "path": "src/js/intro-vision.js",
+        "bytes": 4240,
+        "sha256": "ddd2a8ccec6fda0c0254a5639e6f62283f26f8eaa7b25ea5e5fbb0e16121656e"
+      },
+      {
+        "path": "src/js/items.js",
+        "bytes": 43924,
+        "sha256": "b7c423773ddbff2b161d30c4db00f871db6260dc7831343dabd1228343aa9670"
+      },
+      {
+        "path": "src/js/keybinds-ui.js",
+        "bytes": 8419,
+        "sha256": "fc4b52574f82498e7c69dd75e8df63a5bc99fd80c21faabdac8e742ea02f224f"
+      },
+      {
+        "path": "src/js/keybinds.js",
+        "bytes": 13589,
+        "sha256": "ec42024a5db84159480eb800fbdf3700eacca31a1925067da88384a8e67f17a3"
+      },
+      {
+        "path": "src/js/load-screen.js",
+        "bytes": 7654,
+        "sha256": "c3f885c28429476c13b3cce69b7d6967718707dd72553b9964236ff52bbd92cc"
+      },
+      {
+        "path": "src/js/main-menu.js",
+        "bytes": 6464,
+        "sha256": "639418bbbd38f2ae746f9e0f6b5c67b874610594c172b0d7aa8642461bd5fd63"
+      },
+      {
+        "path": "src/js/main.js",
+        "bytes": 68432,
+        "sha256": "82be60af55ab93908c4eef141e2389cf05261008554c09e57963454fc52087ee"
+      },
+      {
+        "path": "src/js/matrix-update.js",
+        "bytes": 6123,
+        "sha256": "b87e77a699ddf9da239da5a3f084ec96fa5b451ddefa92fa1cfee0e9a00078ae"
+      },
+      {
+        "path": "src/js/menu-camera.js",
+        "bytes": 400,
+        "sha256": "3a1c04887c0365c96cd0fe6e7853bf3c3559143302c3b62124a9b1f3ad376c50"
+      },
+      {
+        "path": "src/js/menu.js",
+        "bytes": 78616,
+        "sha256": "937a8fd06163bc6489b9f50d19095b4e382d409632b7571c3f850c8f9d714460"
+      },
+      {
+        "path": "src/js/mesh-resources.js",
+        "bytes": 858,
+        "sha256": "7e9f8dda2f2c19927ba4e6fc6584760ee48ebf513076dc27ed83fcf45e073339"
+      },
+      {
+        "path": "src/js/minigames.js",
+        "bytes": 16320,
+        "sha256": "d9a1e76433b706312ab6d29be0a7a7a2cad952ef5ea12413f6df24b97d8fe5aa"
+      },
+      {
+        "path": "src/js/mobile-memory.js",
+        "bytes": 1691,
+        "sha256": "ab873c4d15960ab980e19f93bda986307f0f21dffd2bd73ed2648ecb97876cdd"
+      },
+      {
+        "path": "src/js/mod-entries.js",
+        "bytes": 26051,
+        "sha256": "0351e06130bc5300fa4a25d0cecea1e4bf6e9240ae7312e3e880b6dd71d782e6"
+      },
+      {
+        "path": "src/js/mod-menu.js",
+        "bytes": 11700,
+        "sha256": "8fc8ee1cac43405ebcd62056ab73f2a28458e8bf7efcd71c5d07fd130fa44de8"
+      },
+      {
+        "path": "src/js/mod-registry.js",
+        "bytes": 6920,
+        "sha256": "0b153e1a5b11ebb089fe07a4eaf3a601cf406ce9b4b6c686fed898821d2823af"
+      },
+      {
+        "path": "src/js/nav.js",
+        "bytes": 6799,
+        "sha256": "215b3f5f2b39b8530397f1e2d09481520e4ef23031fef92fec14d0dcb2b8b566"
+      },
+      {
+        "path": "src/js/neighborhood-content.js",
+        "bytes": 13020,
+        "sha256": "9b041f34de93bf461d7f5158e8ea4eebb68320b597277f0bec4dd3ab5144dba4"
+      },
+      {
+        "path": "src/js/neighborhood-state.js",
+        "bytes": 7160,
+        "sha256": "b35437f8a305a673762f9be7f06865f3cc7067e0dc437752779fb8e17743e138"
+      },
+      {
+        "path": "src/js/neighborhood.js",
+        "bytes": 34266,
+        "sha256": "eeb10e282bb334789565c80fd783fe7c3f10218c6ef657c85b080570c505e9b0"
+      },
+      {
+        "path": "src/js/net/accessories.js",
+        "bytes": 22790,
+        "sha256": "224451c35847ae7f3a3abd772d0fb2ab2ec262a23995c773225453a1ff6b0839"
+      },
+      {
+        "path": "src/js/net/avatars.js",
+        "bytes": 20047,
+        "sha256": "4db1f3ebf4d2390893d1d403c3ccd04010cb4f4f3db2b8473b4fdb1987b4a263"
+      },
+      {
+        "path": "src/js/net/blob.js",
+        "bytes": 1947,
+        "sha256": "24abe416f7553afd5e05becf6d4ab531baface3ef33fc2ba310d1357db015e47"
+      },
+      {
+        "path": "src/js/net/car-sync.js",
+        "bytes": 20347,
+        "sha256": "6b49756cbbca32da931fa0e5e5a212e83c9eefe79bed3df70b64fd92f6e56dbc"
+      },
+      {
+        "path": "src/js/net/coop-family.js",
+        "bytes": 44637,
+        "sha256": "043d7637f0d567c301005d6cf0e5adcfeb897e42c36fe1a08c120d09a588dea5"
+      },
+      {
+        "path": "src/js/net/coop-office.js",
+        "bytes": 34935,
+        "sha256": "9cacba57f7528e4f95f7a31c100fd7d5022a30bdf628987d35287d12634d995f"
+      },
+      {
+        "path": "src/js/net/coop-ui.js",
+        "bytes": 43402,
+        "sha256": "1d8bf0203d8b7e7aed29a24c505e4862b5370e4f82154f8b521ffee207efec1b"
+      },
+      {
+        "path": "src/js/net/coop.js",
+        "bytes": 107511,
+        "sha256": "f52909bed8aba23fbe6ecf9f58b903dcdc59f8140f4a77483c00c0ff83b4eef8"
+      },
+      {
+        "path": "src/js/net/counter-desk.js",
+        "bytes": 41809,
+        "sha256": "9d93bccb80f189621795551fae845b402453bc023073aa43a7dae48bd981914c"
+      },
+      {
+        "path": "src/js/net/counter-sync.js",
+        "bytes": 11649,
+        "sha256": "87f7088d0f8772c567ef2382cb6b89a5edf974a5bbcbc22f64fc55d4daec3742"
+      },
+      {
+        "path": "src/js/net/creator.js",
+        "bytes": 10659,
+        "sha256": "7689b3292243d8726bfa1b2694fe66f8ed9b60214fa2d349d3389b2a0b65bf97"
+      },
+      {
+        "path": "src/js/net/delta.js",
+        "bytes": 15899,
+        "sha256": "49132d5ffb84ba13a0e51c1b72c03610b8fa8e58a795d75c728c2cf7130081ae"
+      },
+      {
+        "path": "src/js/net/emotes.js",
+        "bytes": 25052,
+        "sha256": "80fbfc7caee74596c3895a64e2b0f6e1981d6c4d78465699d95260fccd2e536f"
+      },
+      {
+        "path": "src/js/net/family-day.js",
+        "bytes": 10575,
+        "sha256": "4cba02f76f7ae309298ba469a8367cf621ebc7f4b9fa79802a8034f2980d7a15"
+      },
+      {
+        "path": "src/js/net/goal-sync.js",
+        "bytes": 7147,
+        "sha256": "0eed39e112b6c9ff0332f6b5c4dc6b2bcd611dd2e2a46dd15e37b2bbdfa1da44"
+      },
+      {
+        "path": "src/js/net/interp.js",
+        "bytes": 8179,
+        "sha256": "f287e0ae71bda0f32ae797d5ddfa6e5c4c5e64918d75bee3c042c13f68ef4f40"
+      },
+      {
+        "path": "src/js/net/look.js",
+        "bytes": 15864,
+        "sha256": "e43b8a3cbb0f96cb4cdd666de80ece7f8dd8e0198f123d9474c2d9b97c275a93"
+      },
+      {
+        "path": "src/js/net/npc-sync.js",
+        "bytes": 26894,
+        "sha256": "0d9ca1060c386588634c7d7c12b6dc7ef5f424b16f6537b101d88284693b2789"
+      },
+      {
+        "path": "src/js/net/phoenix.js",
+        "bytes": 8359,
+        "sha256": "c71a54684b2dd9cfc74c2d84971de8a1bc480f2f7f0cda35111e23079c6027ec"
+      },
+      {
+        "path": "src/js/net/protocol.js",
+        "bytes": 15140,
+        "sha256": "6a76446b49c90e3a0a984609b66c534a64339d80853b4e3c1155c18cb69bc106"
+      },
+      {
+        "path": "src/js/net/realtime.js",
+        "bytes": 14598,
+        "sha256": "ca49373fd18117682a33078aa23836e58690adcd588eee355ff97e6ab8954151"
+      },
+      {
+        "path": "src/js/net/reconcile.js",
+        "bytes": 9576,
+        "sha256": "77c5bbd4d99c0caee2d9cfd0bd62b4edccb7be5361a3c0f7be507d32a5cdc979"
+      },
+      {
+        "path": "src/js/net/rules-casino-play.js",
+        "bytes": 3706,
+        "sha256": "22733fb0f3cf1f034a3ba64ededbeaf1fbfb90e54aeea48c9e35e1624e05e206"
+      },
+      {
+        "path": "src/js/net/rules-cursed.js",
+        "bytes": 2305,
+        "sha256": "c94ffebb93621b68788cd636b54e5800599b7afc2ac15653fcfc43f6470d99b3"
+      },
+      {
+        "path": "src/js/net/rules-family.js",
+        "bytes": 8615,
+        "sha256": "96fa2fecd54bf093ca9ad36fbe366c8134bcbad18c8436734a1e544942210439"
+      },
+      {
+        "path": "src/js/net/rules-office.js",
+        "bytes": 6677,
+        "sha256": "c1474b36ba43eb3c977e4b27df2000c377614ef1c3069eed6f86f40ae0925b15"
+      },
+      {
+        "path": "src/js/net/rules.js",
+        "bytes": 21031,
+        "sha256": "1bacfafd8f1f2ade674de1a380eca317215e7c54bfdfe7f91ffe174274fa2a3a"
+      },
+      {
+        "path": "src/js/net/session.js",
+        "bytes": 52577,
+        "sha256": "7363ff3ce2a50526b0ea2489cef4d3c2b4b43f8611d2fe1c9441b6beff6b8f4d"
+      },
+      {
+        "path": "src/js/net/social-core.js",
+        "bytes": 10617,
+        "sha256": "d457878b48321c10cb25186df3ff03d71b60e5a20ed7cba5370cea50e6ab0d4b"
+      },
+      {
+        "path": "src/js/net/social.js",
+        "bytes": 23680,
+        "sha256": "e14cc58c35f1058a08f35dd5fd67d1f5b86e3240e701da395090e76d956202ec"
+      },
+      {
+        "path": "src/js/net/tick-worker.js",
+        "bytes": 518,
+        "sha256": "26653b95be0b1fe4e05bcb8164b49c2030bfeb26f285882689ab3c154a4a2455"
+      },
+      {
+        "path": "src/js/net/ticker.js",
+        "bytes": 1021,
+        "sha256": "de9514972651bf9ca83a1c86c363d92fc1e1ae6e7703066853f9c561aedf0e3a"
+      },
+      {
+        "path": "src/js/net/traffic-sync.js",
+        "bytes": 16097,
+        "sha256": "b38988aaab881f8724c44821fc77a7d7457f2e7b07de8882b1c364bf0ee7fc53"
+      },
+      {
+        "path": "src/js/net/transport.js",
+        "bytes": 9652,
+        "sha256": "705374567c42df067dac90aee8e058ce06b7559d11dd8d254d10d080b86bd313"
+      },
+      {
+        "path": "src/js/net/venue-sync.js",
+        "bytes": 3290,
+        "sha256": "f59011a3b6930d36c0865235ffcfe34f644f4d557abc736b57356b16d193c935"
+      },
+      {
+        "path": "src/js/net/voice-core.js",
+        "bytes": 7379,
+        "sha256": "8b8ac71dd3e98e42cce94bcdd0f7c54cb31eb4ac0398c3c7431fc4083841bd8e"
+      },
+      {
+        "path": "src/js/net/voice-link.js",
+        "bytes": 7777,
+        "sha256": "87023195199b3b38b0c7edb02f231497efee89146f0f292f78799c48c84de49b"
+      },
+      {
+        "path": "src/js/net/voice-mic.js",
+        "bytes": 6379,
+        "sha256": "eb03101a3ce669a457586b42c8cc13f31f66b27584655798a6be69ffeb40d656"
+      },
+      {
+        "path": "src/js/net/voice.js",
+        "bytes": 28308,
+        "sha256": "5702009258b182bb9721bb5a1129dd3b09f0ddc00a56c0a00fb09f1ca74fb152"
+      },
+      {
+        "path": "src/js/npc.js",
+        "bytes": 92237,
+        "sha256": "0a8850142009ff4316e74a9bfebb564521ec140ebf061e87d898ad240393c579"
+      },
+      {
+        "path": "src/js/objective-marker.js",
+        "bytes": 6146,
+        "sha256": "21f3c85e7dcb8b396983a33f1306146a7caba76a7f86145c72319f47aff0f239"
+      },
+      {
+        "path": "src/js/office.js",
+        "bytes": 56392,
+        "sha256": "12a72fcf90101337bd9fc8ae38ef3b41b33eb97ac6507b2b76c153928a243d5e"
+      },
+      {
+        "path": "src/js/onscreen-keyboard.js",
+        "bytes": 6422,
+        "sha256": "8cf044bcf540a0cd5c037beb7e9ea69d30b22b9cd150ff0fbfa3bb6e1ec28aa6"
+      },
+      {
+        "path": "src/js/outdoor.js",
+        "bytes": 102127,
+        "sha256": "ebc260191b2592449e7814ac410907dc6e87932d8cdbd45b3269aed26e9d4a36"
+      },
+      {
+        "path": "src/js/paused-render-budget.js",
+        "bytes": 4337,
+        "sha256": "a17ad797c97bf60426e9cffc21f48e08a2beca2bd48f086454caac92642e4a55"
+      },
+      {
+        "path": "src/js/pc.js",
+        "bytes": 74878,
+        "sha256": "07d54ca448833a1e5541d84f6ff2c1023bb48ddb7642e44a9f72eaf80512e4f3"
+      },
+      {
+        "path": "src/js/perf-probe.js",
+        "bytes": 13238,
+        "sha256": "f757c0483ea2fe3f4f51370d59387b94769f03db15cf3e1a607c8e6c8709a8fe"
+      },
+      {
+        "path": "src/js/performance-recorder.js",
+        "bytes": 11787,
+        "sha256": "73153e3fc7c64a8546dfbeb9e568f6e4661dd84b4423eefadfdbf35a50046b6a"
+      },
+      {
+        "path": "src/js/phone-hud.js",
+        "bytes": 4550,
+        "sha256": "1154593fef74f4708e7f7bca902b3127edec3212938bba5b31f2922aca61022d"
+      },
+      {
+        "path": "src/js/phone-kit.js",
+        "bytes": 4729,
+        "sha256": "0053702720fd486ab92cf4f0f6a28ea4f3b7267f1b1279365e2903f7307d9747"
+      },
+      {
+        "path": "src/js/phone.js",
+        "bytes": 37208,
+        "sha256": "10285bfec463c9c7f2dc21621dfecdb968da97b51dbcb4a2beeb723ccb8dcd97"
+      },
+      {
+        "path": "src/js/photo-core.js",
+        "bytes": 2762,
+        "sha256": "8fac6ec69277fb027c216e794b2b5ccb3ccce761fdf764a741ea467188f4ed20"
+      },
+      {
+        "path": "src/js/photo.js",
+        "bytes": 18147,
+        "sha256": "aed1be6cfd67a1038a42e61b786a4cc00928a031d5d16b0e33104e0c8836c979"
+      },
+      {
+        "path": "src/js/plant-geometry.js",
+        "bytes": 4423,
+        "sha256": "67478290a4ce4867087334c5c7e66e187799824856a5398f838c87455a80824e"
+      },
+      {
+        "path": "src/js/player-colors.js",
+        "bytes": 449,
+        "sha256": "d36fa78fb2f6a9262000962452abd2dfb1a0586402499ad8e6f941665237a611"
+      },
+      {
+        "path": "src/js/player-jump.js",
+        "bytes": 1099,
+        "sha256": "33e7fe04e3ba0ce9bab375bd6b3c2c63106019572e3acaf5c3aa628ec69d5984"
+      },
+      {
+        "path": "src/js/player.js",
+        "bytes": 41183,
+        "sha256": "24968b649695cca8068a02c9db2c07468653334aa709db1608ed705dc4b69b7b"
+      },
+      {
+        "path": "src/js/police-core.js",
+        "bytes": 20756,
+        "sha256": "36b14b7a326abbef9be5bae79e06848b938798a40afdf95c03f3b19020baf1c1"
+      },
+      {
+        "path": "src/js/police-figure.js",
+        "bytes": 31607,
+        "sha256": "a8e874b96d35679548667300d226a155766fef624b5e7208b69be8f5d03608d6"
+      },
+      {
+        "path": "src/js/police-lines.js",
+        "bytes": 8637,
+        "sha256": "42f626ab78b2e8c81190d989d496dc63fceaffc707893e398531d966d8b5c3e2"
+      },
+      {
+        "path": "src/js/police-voice.js",
+        "bytes": 5029,
+        "sha256": "bff4636eb435a43f901cf3a80cb17ae903a5934170d6d3fd1aea52dd02575384"
+      },
+      {
+        "path": "src/js/police.js",
+        "bytes": 62020,
+        "sha256": "a6499e67952d4bf3cebcd97431951a7516fc23feb4904806fec079b320f78f03"
+      },
+      {
+        "path": "src/js/portal-cull.js",
+        "bytes": 6317,
+        "sha256": "d45691fe0cb968016a0be001869b43827244cca2e050a8d26e65cb614fc6d4e4"
+      },
+      {
+        "path": "src/js/post.js",
+        "bytes": 26454,
+        "sha256": "d2b99d503959a0368bf0a3e85525a081c6505ba533a0eaba7eca6902d1bd2684"
+      },
+      {
+        "path": "src/js/posters.js",
+        "bytes": 42934,
+        "sha256": "78efef7e9b198e03478c08b9d910f3547cef01258e0c5a190fb84133948965ee"
+      },
+      {
+        "path": "src/js/prestige-ui.js",
+        "bytes": 20976,
+        "sha256": "7206fa93e2156f85726e3c3cd5dbb198593372ee100b7fafe6df7fb9353e6667"
+      },
+      {
+        "path": "src/js/prestige-world.js",
+        "bytes": 67429,
+        "sha256": "7f24fbf1e03b8d5e6a7be550b88e019a2e3a163058c0f837aadc008e4c215cc2"
+      },
+      {
+        "path": "src/js/prestige.js",
+        "bytes": 21252,
+        "sha256": "5c5104a7862e9326e23ec1a384663cc5cabb6daf072c78e223da657a5e7a3061"
+      },
+      {
+        "path": "src/js/preview.js",
+        "bytes": 4925,
+        "sha256": "4c0c513673ba6776a297983031a14331cc83f4db62e7a1241409bca9428b180e"
+      },
+      {
+        "path": "src/js/privacy-text.js",
+        "bytes": 14086,
+        "sha256": "06cde7c29e367254b0efd0570d24f776df3bfdcfe46db515f87d742137ca2213"
+      },
+      {
+        "path": "src/js/queue-line.js",
+        "bytes": 5936,
+        "sha256": "97b8226f0fd9ec8e05ede0854f5b4d998da27e0dc78c5b5cce763d1c9b0eda94"
+      },
+      {
+        "path": "src/js/quirks-cast.js",
+        "bytes": 124597,
+        "sha256": "bb44d83d126e809ce9ceaa74f7bcfd104ad4bc7fab8cdeac5519e909ddd59aa9"
+      },
+      {
+        "path": "src/js/quirks-items.js",
+        "bytes": 3812,
+        "sha256": "3a1acc01b3fcf1fba6d6a25c9ce13352786ca99dc0326716c7d7765d1d0b91fb"
+      },
+      {
+        "path": "src/js/quirks-state.js",
+        "bytes": 16760,
+        "sha256": "e6df4f070ae3bef2514532b1d3fa946ccd03c241489e5f0a59c7939ed877aec6"
+      },
+      {
+        "path": "src/js/quirks-window.js",
+        "bytes": 11055,
+        "sha256": "1ba36a6fdbaea59601b450af08048baba2c2c21517838e37b87c007ae1996db2"
+      },
+      {
+        "path": "src/js/quirks.js",
+        "bytes": 42822,
+        "sha256": "5657043c4ea80b03bc17e1eaa460d0d9680774847ffcebc04e557e747ad849e0"
+      },
+      {
+        "path": "src/js/regulars-state.js",
+        "bytes": 7826,
+        "sha256": "1745e055f175edc39121b93a6673dc8a6ee423f336ad1f73d808079593335170"
+      },
+      {
+        "path": "src/js/regulars.js",
+        "bytes": 11221,
+        "sha256": "b5838dca0f1050279ee0ee1b34868c0b4ae51c5c496118205cc6dd41224581a3"
+      },
+      {
+        "path": "src/js/render-programs.js",
+        "bytes": 4266,
+        "sha256": "3dc791120e3569f98cacd01103c40cefa044e4c4723b13e4fe59868dab979439"
+      },
+      {
+        "path": "src/js/render-resolution.js",
+        "bytes": 2041,
+        "sha256": "1d99c455da9e242a2650f7627d1ad5932257e72d8e2ed8fbd26a412d4f631bb3"
+      },
+      {
+        "path": "src/js/save.js",
+        "bytes": 14392,
+        "sha256": "6577d8603e0eb9858fe8b9ea3869d441a516c5e957621c561d28776d5a10263f"
+      },
+      {
+        "path": "src/js/shadow-casters.js",
+        "bytes": 1562,
+        "sha256": "527a3280bb214eac4877e03f9d5bc9f13c0b2c37203a2fab2305f4fa55e628eb"
+      },
+      {
+        "path": "src/js/shadow-filter.js",
+        "bytes": 2311,
+        "sha256": "2c564b562a5329e2e88ac51471fe39a7f3a96b3551026d2467da6c64212cfb40"
+      },
+      {
+        "path": "src/js/shadow-layers.js",
+        "bytes": 3122,
+        "sha256": "3a72ef44e08ad7d3d59a7fa268d709d109688ee8e06cfd30f4c49089db57b245"
+      },
+      {
+        "path": "src/js/shadow-proxy.js",
+        "bytes": 4667,
+        "sha256": "92ce16436da88b403ec2108a626991d87b6ff6ca728f7c60262ef249409fde02"
+      },
+      {
+        "path": "src/js/shake-sip.js",
+        "bytes": 5469,
+        "sha256": "c11393a2f822f983a9c80fe1c301106ee5e7c2d0eef727217fa1adeea08d02d1"
+      },
+      {
+        "path": "src/js/shop-auction.js",
+        "bytes": 31395,
+        "sha256": "4df8918fafc5a430904d0655f0638481c0ea378415d31e5faedfffb150030527"
+      },
+      {
+        "path": "src/js/shop-cafe.js",
+        "bytes": 25151,
+        "sha256": "ee4d935f312f54fe5086582fa07cfb9140d94b968e5967e6af557d9c989c0efa"
+      },
+      {
+        "path": "src/js/shop-jeweller.js",
+        "bytes": 31326,
+        "sha256": "c9e2ab68f36aeff01e43c69afb26a396ad7985e69d1d062e7b0e4b08612f6b1d"
+      },
+      {
+        "path": "src/js/shop-junk.js",
+        "bytes": 27493,
+        "sha256": "528d9f61093228fce792a73fca791b886c320a76ac47a4ea0951dd2acf7863b6"
+      },
+      {
+        "path": "src/js/shop-repair.js",
+        "bytes": 23448,
+        "sha256": "19ff1d90d0dc050f09f54470694dd64d1e9efbc58f75d79f19fc238f341d7ee4"
+      },
+      {
+        "path": "src/js/signage.js",
+        "bytes": 3057,
+        "sha256": "5de25b383bdf5fca36eb2f18de03d4d6afd2421862350dc1b069182f20ab917d"
+      },
+      {
+        "path": "src/js/slot-picker.js",
+        "bytes": 7652,
+        "sha256": "57672a85476a88ef6cc7fb3b24ab8eaafb20517e41bb9d2a01bd46e2de525fa2"
+      },
+      {
+        "path": "src/js/spook-core.js",
+        "bytes": 11861,
+        "sha256": "fc4328a261adf7ebc7f2234715a0cb3bc2dee270beca4cd546d2731f72941185"
+      },
+      {
+        "path": "src/js/spook-extreme.js",
+        "bytes": 89217,
+        "sha256": "1395ce44eb9fe1780c574838a114944fbcfb37ea290b1e2fae325679885530e1"
+      },
+      {
+        "path": "src/js/spook-figure.js",
+        "bytes": 22834,
+        "sha256": "c431fee986cd8b4cf7905e6d46e2129866e8be76c94dcd6a0f794eb757c7562e"
+      },
+      {
+        "path": "src/js/spook-mesh.js",
+        "bytes": 40278,
+        "sha256": "246e8167d39c3beddd11239071aa52a217094b4029e5dd73cbebdcbe0a2fb53a"
+      },
+      {
+        "path": "src/js/spook-omen-core.js",
+        "bytes": 6136,
+        "sha256": "eca6ce2291ec940a5b29f5c4e94592c770f03616bacbeec1319876c7808aabd2"
+      },
+      {
+        "path": "src/js/spook-omen.js",
+        "bytes": 7994,
+        "sha256": "f4f65d0ab6d6a6d7547edaf911d92dd70120b8e59af3b81c5fdce9348ae93164"
+      },
+      {
+        "path": "src/js/spook-scenes-core.js",
+        "bytes": 11320,
+        "sha256": "108ccc3907442d25ea43a2218bd91500fb955d3409e2ff22b17767b8f1f5fb37"
+      },
+      {
+        "path": "src/js/spook-scenes-text.js",
+        "bytes": 16335,
+        "sha256": "3c49e16c53511b7532ceb821be124e5fcd2ff5529a3495a9b8edce9ee3b1b1b1"
+      },
+      {
+        "path": "src/js/spook-scenes.js",
+        "bytes": 75483,
+        "sha256": "119ad998f61675c3d133d515c261f34cc2af32754e10515ae590af82d121d4f5"
+      },
+      {
+        "path": "src/js/spook-teaser.js",
+        "bytes": 3355,
+        "sha256": "8c98ca235346230dd5ea5fe58d39b39332489a00bab540807e73743b72450273"
+      },
+      {
+        "path": "src/js/spook-text.js",
+        "bytes": 12931,
+        "sha256": "ae034f1f61c7e0196098cf4481b9f44c12b23683402ee71ea34838ff78a9c8b5"
+      },
+      {
+        "path": "src/js/spook-voice.js",
+        "bytes": 10569,
+        "sha256": "c64b301c16d3b80ab1c77ddc04c3b6c701aca89dd700c22c3ba6da57625f4ca7"
+      },
+      {
+        "path": "src/js/staff-opening.js",
+        "bytes": 336,
+        "sha256": "744a27c5e8f7771418cf000fd91e1799ad3acc22ba71cf70ba2ae7e3306ba4f3"
+      },
+      {
+        "path": "src/js/staff.js",
+        "bytes": 50180,
+        "sha256": "4220075281b26d7348af85c586f30e485e92029d38aaec22fcd1005735ec5ba4"
+      },
+      {
+        "path": "src/js/static-merge.js",
+        "bytes": 5264,
+        "sha256": "8aa9d837d4fed180dc1227554e63c913ca8a2bf39557c1274f33d2925dceb0f8"
+      },
+      {
+        "path": "src/js/stocker-keep.js",
+        "bytes": 6881,
+        "sha256": "33240861d6c0c9df31e3fc029883bcea166fcee1a8c89948e666c57ae5b80162"
+      },
+      {
+        "path": "src/js/story.js",
+        "bytes": 48235,
+        "sha256": "fd0b3fbb5db67010e8f03633458a971920359081ccf2c889ef53ea5b8b5b4a85"
+      },
+      {
+        "path": "src/js/street-boundaries.js",
+        "bytes": 6406,
+        "sha256": "88e711d49afc6966e8ffa0fa10f01df52229bff479c52e98d10c79be276d8cea"
+      },
+      {
+        "path": "src/js/street-ground.js",
+        "bytes": 829,
+        "sha256": "40353f0eca25d76d55134de9a16134c85bb24f098132bda0cb73a33f892091d4"
+      },
+      {
+        "path": "src/js/street-person-lifecycle.js",
+        "bytes": 11533,
+        "sha256": "f51d93cdab76d5f831ecbc2c663e3ffa273ef333a9d1354f160440ab5ab5a00e"
+      },
+      {
+        "path": "src/js/street-return-traffic.js",
+        "bytes": 7850,
+        "sha256": "58ff0b31b204243b17f90a64d84097cb8c031613396fbebd3c5bb0eb8e682384"
+      },
+      {
+        "path": "src/js/streetends.js",
+        "bytes": 41443,
+        "sha256": "95e1e30299c7f254d80b23401787cf4a0ed91b4808e222792a6d24e3ead1f518"
+      },
+      {
+        "path": "src/js/streetlife.js",
+        "bytes": 36693,
+        "sha256": "5fadd718f793501986e6e567e19a1ec7539a2e830fb9f4f5bde9b17622e802c6"
+      },
+      {
+        "path": "src/js/style-look.js",
+        "bytes": 483,
+        "sha256": "c5af892c5b3cd6c868f9c6105fc30854693c79139e2ce2eb6f222d242ecb2228"
+      },
+      {
+        "path": "src/js/style-preview.js",
+        "bytes": 13719,
+        "sha256": "8fbff1b3916df09d4170babb889d892eab8a0d046e15384bc5c708e404a4e672"
+      },
+      {
+        "path": "src/js/sun-shadow.js",
+        "bytes": 2487,
+        "sha256": "057ea19df229830a271397805bf3e707459a75d5b96517ebdc0e446ef963a58d"
+      },
+      {
+        "path": "src/js/telemetry.js",
+        "bytes": 15963,
+        "sha256": "1401f5ab39bcceaaa1df2977ed3541a682e7b5e946289e124a2156bc727567f4"
+      },
+      {
+        "path": "src/js/textures.js",
+        "bytes": 51331,
+        "sha256": "7162844a1c1cf5d5e983c3c7bb85b2dd951bdda9ba7dfcc67fcc99e162da780f"
+      },
+      {
+        "path": "src/js/thief-chase.js",
+        "bytes": 3747,
+        "sha256": "7dddb6741cc4d3cc26dba1e2f828b1f2a44446856ad9fe4beabd01f3831d5b1c"
+      },
+      {
+        "path": "src/js/timing-bar.js",
+        "bytes": 1372,
+        "sha256": "01644f048f008bbc7e46a83c902b42364d7c391e66c8a09b25055c0a411b9a54"
+      },
+      {
+        "path": "src/js/title-host.js",
+        "bytes": 3349,
+        "sha256": "410a0bbba07d6c8de16ba0e64b7eb0ed38e77dce9164b7ecd730e69029182c05"
+      },
+      {
+        "path": "src/js/title-scene.js",
+        "bytes": 38849,
+        "sha256": "e83b4ecf7cb1e20898f60838694107bfba01bc904c1480c81856764891e0f862"
+      },
+      {
+        "path": "src/js/title-worker.js",
+        "bytes": 1676,
+        "sha256": "6cf555b4dbd8c3887fde23e619ada21bc77e93cf796e31dac555ae4240703dc2"
+      },
+      {
+        "path": "src/js/town-paper-ui.js",
+        "bytes": 17549,
+        "sha256": "95ae8003bb8a2eeb7112396d38a6e7d4c4e4e62d801ed075f9937584c8d6d804"
+      },
+      {
+        "path": "src/js/town-paper.js",
+        "bytes": 32525,
+        "sha256": "a5cd8cbf1b0f31640641f67eaa9eae5ecb3ba0c9015d2bc7d7f5f24af8122ea9"
+      },
+      {
+        "path": "src/js/town.js",
+        "bytes": 27790,
+        "sha256": "b44deab86288ad9bbc3b03b76719fe9ffc98bf04a7ac9ad4b1370377f3c152f4"
+      },
+      {
+        "path": "src/js/townlife.js",
+        "bytes": 47301,
+        "sha256": "3ff0bba7356520d3cd2a2aa82f07490d66ad4c31c3d7f88acf75c09d97170f34"
+      },
+      {
+        "path": "src/js/townshop.js",
+        "bytes": 27840,
+        "sha256": "d31133f1e472d4490315960760a9964a34877a086f44cea44fcd760258057a8f"
+      },
+      {
+        "path": "src/js/transit.js",
+        "bytes": 20883,
+        "sha256": "e5e91a0c0b18e19bb9375c5f79c4c0814180b61a29be68de898f7985f80e94c6"
+      },
+      {
+        "path": "src/js/tutorial.js",
+        "bytes": 34973,
+        "sha256": "94b13ce3fb6ff2d6985ef8c58048b2994c273b3029c43575e9d7270f7d3880c6"
+      },
+      {
+        "path": "src/js/ui-dialog.js",
+        "bytes": 4937,
+        "sha256": "0271810239ef3a4508d5310c946839b3780664d22d9b422d6efa508fdf65c51f"
+      },
+      {
+        "path": "src/js/ui-hud.js",
+        "bytes": 1624,
+        "sha256": "23579fdf8185e2347fe689b6e9453624fe0e11ba3324f85fe043b1279e6fe23c"
+      },
+      {
+        "path": "src/js/ui-theme.js",
+        "bytes": 8745,
+        "sha256": "ebd08ad5f0e3b577cafd256e62077299f2788543d5400b4077f077ebe003c8ea"
+      },
+      {
+        "path": "src/js/ui.js",
+        "bytes": 59873,
+        "sha256": "911e665fbba0aa59dd380dfd105aba2b810d841fddf5d3dfdcbe9346042bb43e"
+      },
+      {
+        "path": "src/js/vehicle-path.js",
+        "bytes": 15698,
+        "sha256": "00b13b3b4c2af41a631934b569b747e96ae90d49db7f8c9b9547a013be0a4474"
+      },
+      {
+        "path": "src/js/venue-life.js",
+        "bytes": 10302,
+        "sha256": "5d85c2c30736fc36db8d5634657a6785f96baffe2421f7d57a09f3a7cb1667c2"
+      },
+      {
+        "path": "src/js/version.js",
+        "bytes": 10110,
+        "sha256": "0191cd97b5e7a5978b0b5661dabe1d9cdf2e8272770bfd921075f9f076c3f8df"
+      },
+      {
+        "path": "src/js/voice-channel.js",
+        "bytes": 2176,
+        "sha256": "e2299829c6d8e3f4953e87694dfe548376f54c54a0cc22d4f7aa12c72d17f12a"
+      },
+      {
+        "path": "src/js/voice-settings-ui.js",
+        "bytes": 9059,
+        "sha256": "e2ba0dbdd3608ee01dd4ef49f0f1fab678d9f20395f3735bd845c8842b21af06"
+      },
+      {
+        "path": "src/js/voice-settings.js",
+        "bytes": 2345,
+        "sha256": "97930b49d58f31a8776d9342d7d624e13523c92218bc033c907e7a2c8dcef2e6"
+      },
+      {
+        "path": "src/js/window-activity.js",
+        "bytes": 1893,
+        "sha256": "bd70442d7aded4542c5366f733dc5032d6757f8f86227a5577cedc79611a0d56"
+      },
+      {
+        "path": "src/js/window-sign.js",
+        "bytes": 2673,
+        "sha256": "0ce265b42c6962f65de14a904a079fe642e9382cdef014ba6431cd3a130932bb"
+      },
+      {
+        "path": "src/js/world-clearance.js",
+        "bytes": 3034,
+        "sha256": "053deaf904f40ee729e687386e72beb224a3209f139f99b1d21f0e5ff3f5daf3"
+      },
+      {
+        "path": "src/js/world.js",
+        "bytes": 90730,
+        "sha256": "afa8cfc253dac96742305722b4d37a8973104a409ce6f9d97d29241a7bf1a3bf"
+      },
+      {
+        "path": "src/manifest.webmanifest",
+        "bytes": 431,
+        "sha256": "df8b4f2866f61899a8ea90d664ac0d559673b3fa732e86adf9b8ff493a022d74"
+      },
+      {
+        "path": "src/robots.txt",
+        "bytes": 26,
+        "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+      },
+      {
+        "path": "src/vendor/THREE-LICENSE.txt",
+        "bytes": 1081,
+        "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+      },
+      {
+        "path": "src/vendor/addons/environments/RoomEnvironment.js",
+        "bytes": 3606,
+        "sha256": "85869bdd22f7cf0b22e68dcefe6cb710480af0f5c901a76f7a7764fd07fc8014"
+      },
+      {
+        "path": "src/vendor/addons/geometries/RoundedBoxGeometry.js",
+        "bytes": 4625,
+        "sha256": "d20aeaf7077c459a8d952d215738d7b44fba028440bb862d84b622a34f0c80bb"
+      },
+      {
+        "path": "src/vendor/addons/loaders/GLTFLoader.js",
+        "bytes": 110273,
+        "sha256": "45139faddd5aaf48ed2d62203d976e5cbd703db1a592de40527f9f6cf58abd44"
+      },
+      {
+        "path": "src/vendor/addons/math/SimplexNoise.js",
+        "bytes": 14351,
+        "sha256": "9b8d541b77b0ddc79afaa6a1de8941452c191b8b9006f04e7b8fc422e2b263f7"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/EffectComposer.js",
+        "bytes": 4651,
+        "sha256": "d234e578618fa816955ebdc059c049c577e203e650e33cf22bde3f232c29e669"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/GTAOPass.js",
+        "bytes": 16582,
+        "sha256": "980b036767c439cf2aadd0e869b2e51b2ec00736a75a5ad1bb69dddb03254fe8"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/MaskPass.js",
+        "bytes": 2231,
+        "sha256": "328cf7db0da5d9be83ffe39d54b01d5ac1fddf108cc98182ddbb056f5c8b537f"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/OutputPass.js",
+        "bytes": 2524,
+        "sha256": "32f879d2179087676631c799857a885586b3cdd13b9731bd3b13f06428bd58b7"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/Pass.js",
+        "bytes": 1706,
+        "sha256": "b3c6128340eaa37e40a6a2f1b738e894c855239417d50959759b34a2b5e89f92"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/RenderPass.js",
+        "bytes": 1941,
+        "sha256": "6c9b8a539ea16e898f65e4760f14937ef9ea94043bd9842c141e0301f41903e8"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/SMAAPass.js",
+        "bytes": 49467,
+        "sha256": "f3508e3e17f40c1358921b5c7eb3ab60460d97b06fdadf6b0d40b52d3842c44a"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/ShaderPass.js",
+        "bytes": 1576,
+        "sha256": "3b28a1ee27e0eb96c0eab137a1f442ccf127a926904eced2d51e125ec44af781"
+      },
+      {
+        "path": "src/vendor/addons/postprocessing/UnrealBloomPass.js",
+        "bytes": 12410,
+        "sha256": "3bd23a1097af75c7002d0ffc21a6c14f45c4dd701dbaf737030dfc61fb7c64d9"
+      },
+      {
+        "path": "src/vendor/addons/shaders/CopyShader.js",
+        "bytes": 571,
+        "sha256": "4e3346db194db56a596cd074e9bdb39fb5eb52040c333e0d29dc4eb1324d3b1d"
+      },
+      {
+        "path": "src/vendor/addons/shaders/GTAOShader.js",
+        "bytes": 12990,
+        "sha256": "e1f5dd89bca4ee679a4aca50c3ef3513926be71f6860c38e31a62cc9d7120b39"
+      },
+      {
+        "path": "src/vendor/addons/shaders/LuminosityHighPassShader.js",
+        "bytes": 1147,
+        "sha256": "9f4866f9abb2d96fd83eec46ba4bf2165b22155a7a37ff425c0f60eba18007cb"
+      },
+      {
+        "path": "src/vendor/addons/shaders/OutputShader.js",
+        "bytes": 1490,
+        "sha256": "4944cecd49c0d4d1520a4d927bde8a590fd43f041ee913252b9451855a01d0f0"
+      },
+      {
+        "path": "src/vendor/addons/shaders/PoissonDenoiseShader.js",
+        "bytes": 6614,
+        "sha256": "3dab419b23529f8fd59e2713458502f9f51d2dd3af3e1285dc671fcc451d49fb"
+      },
+      {
+        "path": "src/vendor/addons/shaders/SMAAShader.js",
+        "bytes": 14628,
+        "sha256": "3c7e942a25cb09dd431e395e6e91904715a834b2a6e62ec0b9b77c2f8655c369"
+      },
+      {
+        "path": "src/vendor/addons/utils/BufferGeometryUtils.js",
+        "bytes": 31768,
+        "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+      },
+      {
+        "path": "src/vendor/addons/utils/SkeletonUtils.js",
+        "bytes": 8802,
+        "sha256": "ee412be1aa05f3051c2bda8ea89612c1ba70c5c87de62b56040282120d5eb991"
+      },
+      {
+        "path": "src/vendor/three.module.js",
+        "bytes": 691648,
+        "sha256": "08fd7545d13d2c7fb65ab691530a802dafefd638596501854f267d0fb13c39e7"
+      },
+      {
+        "path": "src/vercel.json",
+        "bytes": 914,
+        "sha256": "4f00e6a1f3f15e4662715ce3f4e85ff336b44a05d972f2271d6a5a19ecaabf70"
+      }
+    ]
+  },
+  "platform": "mac",
+  "archive": {
+    "bytes": 182790720,
+    "sha256": "b6f60b22d0d2a204f3bd66a06f489c5d53dcf6335c356d09059e99c90ccbbd76"
+  },
+  "chunks": [
+    {
+      "file": "Mac-Universal-1.0.5-5d9f9a2.tar.xz.001",
+      "bytes": 78643200,
+      "sha256": "e591a8b4db66ac7bac6a0c9d5d9bbcc1d10a6de4b5883b31977e82c26b7bf703"
+    },
+    {
+      "file": "Mac-Universal-1.0.5-5d9f9a2.tar.xz.002",
+      "bytes": 78643200,
+      "sha256": "4a6ab95bcf1a8de0f763b04989b3274cb49f55d8dce81f1cd34cbdd04078d1fd"
+    },
+    {
+      "file": "Mac-Universal-1.0.5-5d9f9a2.tar.xz.003",
+      "bytes": 25504320,
+      "sha256": "82a73f7e700f73e5651b1af95ad1d4d06979c707f4835534bcf2f79679115cf6"
+    }
+  ],
+  "signature": {
+    "minimumMacOS": "13.0",
+    "universal": true,
+    "microphoneUsageAndEntitlements": true,
+    "steamworksIncluded": true,
+    "machoFiles": [
+      {
+        "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/app_shim_loader",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Mind Your Business Helper (GPU).app/Contents/MacOS/Mind Your Business Helper (GPU)",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Mind Your Business Helper (Plugin).app/Contents/MacOS/Mind Your Business Helper (Plugin)",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Mind Your Business Helper (Renderer).app/Contents/MacOS/Mind Your Business Helper (Renderer)",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Mind Your Business Helper.app/Contents/MacOS/Mind Your Business Helper",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/MacOS/Mind Your Business",
+        "adhocSlices": 2,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Resources/app/node_modules/steamworks.js/dist/osx/libsteam_api.dylib",
+        "adhocSlices": 3,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Resources/app/node_modules/steamworks.js/dist/osx/steamworksjs.darwin-arm64.node",
+        "adhocSlices": 1,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      },
+      {
+        "file": "Contents/Resources/app/node_modules/steamworks.js/dist/osx/steamworksjs.darwin-x64.node",
+        "adhocSlices": 1,
+        "status": "code-directory checks complete; certificate-only CMS test is inapplicable to ad-hoc"
+      }
+    ],
+    "signature": "recursive ad-hoc; no Developer ID and no notarization",
+    "verificationLimit": "rcodesign 0.29.0 unconditionally parses a CMS certificate; its empty-CMS error on ad-hoc signatures is recorded explicitly",
+    "nativeMacCodesignVerified": false
+  },
+  "packagedSourceSha256": "82b16763ca13c1ce236179a68e38dde1e3215dbd34bb720cd5c8f56e0d2e6265",
+  "nativeExecution": {
+    "mac": false,
+    "windows": false
+  },
+  "publication": false
+}
