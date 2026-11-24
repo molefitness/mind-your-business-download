@@ -1,11 +1,11 @@
-# Mind Your Business 1.0.5
+# Mind Your Business 1.0.6
 
-Windows x64. Quelle: `5d9f9a2502c3e7d65895c02eab769c5a58b24366`, Electron 45.3.1.
+Windows x64. Quelle: `82a30aa333bbe59bd3602938eaa8689d005bee99`, Electron 45.3.1.
 
 1. Das laufende Spiel speichern und beenden.
 2. Das gesamte Download-ZIP in einen neuen Ordner entpacken.
 3. **START-WINDOWS.cmd** starten und alle Dateien zusammenlassen.
 
-Vorhandene Spielstaende bleiben im bisherigen Mind-Your-Business-Datenordner. Steamworks und der Mikrofon-Sprachchat sind enthalten. Die lokalen Integritaetspruefungen belegen keine Ausfuehrung auf nativer Windows- oder Mac-Hardware.
+Vorhandene Spielstaende bleiben im bisherigen Mind-Your-Business-Datenordner. Steamworks und der Mikrofon-Sprachchat sind enthalten. Die lokalen Integritaetspruefungen belegen keine Ausfuehrung auf nativer Windows-Hardware.
 
-Enthalten: begehbares Grandhotel mit Zimmern, Aufzug, Inhaberbuero, Ballsaal sowie kaufbarem Restaurant, Spa und Pool. Details stehen im Spiel.
+Neu: Empfang im Grandhotel, Ausstattung und Bautage mit Bauleiter, Hotelklasse 1 bis 5, Stammgaeste und angekuendigte Prominente, selbst geleitete Ballabende mit Kapelle, lebendige Stockwerke. Details stehen im Spiel und auf der Download-Seite.
